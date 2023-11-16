@@ -1,0 +1,54 @@
+newmtl def_surf_mat
+Kd 0.820000 0.830000 0.870000
+Ks 0.150000 0.150000 0.150000
+Ns 100.000000
+d 1.000000
+illum 2
+newmtl roof
+Kd 0.988235 1.000000 0.996078
+Ks 1.000000 1.000000 1.000000
+Ns 100.000000
+d 1.000000
+illum 2
+map_Kd C:\Documents and Settings\stevie\Desktop\thatch.jpg
+newmtl walls
+Kd 0.988235 0.992157 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 100.000000
+d 1.000000
+illum 2
+map_Kd D:\textures\cartoon\wall08_h.jpg
+newmtl door
+Kd 1.000000 0.988235 0.992157
+Ks 1.000000 1.000000 1.000000
+Ns 100.000000
+d 1.000000
+illum 2
+map_Kd D:\textures\WOWstyle\th_door_c_h.jpg
+newmtl window
+Kd 1.000000 0.976471 0.976471
+Ks 1.000000 1.000000 1.000000
+Ns 100.000000
+d 1.000000
+illum 2
+map_Kd D:\textures\WOWstyle\th_window_d_h.jpg
+newmtl wood
+Kd 1.000000 0.992157 0.988235
+Ks 1.000000 1.000000 1.000000
+Ns 100.000000
+d 1.000000
+illum 2
+map_Kd D:\textures\WOWstyle\tree22_h.jpg
+newmtl chim_inside
+Kd 0.820000 0.830000 0.870000
+Ks 0.150000 0.150000 0.150000
+Ns 100.000000
+d 1.000000
+illum 2
+map_Kd C:\Documents and Settings\stevie\Desktop\Cartoon Fantasy Pack\House_1\chimney_inside.jpg
+newmtl window2
+Kd 0.820000 0.830000 0.870000
+Ks 0.150000 0.150000 0.150000
+Ns 100.000000
+d 1.000000
+illum 2

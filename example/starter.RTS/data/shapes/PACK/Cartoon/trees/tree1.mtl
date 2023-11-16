@@ -1,0 +1,23 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D v2.28
+# Time: Wed Nov 08 23:53:55 2006
+# num_materials: 2
+newmtl leaf
+Ka 0.000000 0.000000 0.000000
+Kd 0.964706 1.000000 0.996078
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd leaf1.png
+
+newmtl bark
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd tree15.jpg
+
+# num_materials: 2

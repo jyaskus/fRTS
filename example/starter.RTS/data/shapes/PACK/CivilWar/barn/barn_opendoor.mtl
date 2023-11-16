@@ -1,0 +1,32 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D v2.29
+# Time: Tue Apr 17 16:24:59 2007
+# num_materials: 3
+
+newmtl Unassigned
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 1.000000
+
+newmtl front
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd barn.jpg
+
+newmtl straw
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd straw.jpg
+
+# num_materials: 3

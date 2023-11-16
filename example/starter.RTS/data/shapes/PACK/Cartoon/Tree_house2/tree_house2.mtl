@@ -1,0 +1,32 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D v2.28
+# Time: Wed Nov 08 23:48:48 2006
+# num_materials: 3
+newmtl leaves
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd set04_23.png
+
+newmtl door
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd edit_door.jpg
+
+newmtl trunk
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd tree15.jpg
+
+# num_materials: 3

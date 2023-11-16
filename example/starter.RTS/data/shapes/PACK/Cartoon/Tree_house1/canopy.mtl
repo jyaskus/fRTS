@@ -1,0 +1,49 @@
+newmtl def_surf_mat
+Kd 0.820000 0.830000 0.870000
+Ks 0.150000 0.150000 0.150000
+Ns 100.000000
+d 1.000000
+illum 2
+newmtl wo_1
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd c:\documents and settings\stevie\desktop\cartoon fantasy pack\a\tree22_h.jpg
+newmtl floor
+Kd 0.992157 0.992157 0.992157
+Ks 0.150000 0.150000 0.150000
+Ns 100.000000
+d 1.000000
+illum 2
+map_Kd D:\textures\cartoon\floor09_h.jpg
+newmtl Unassigned
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+d 1.000000
+illum 2
+newmtl roof1
+Ka 0.000000 0.000000 0.000000
+Kd 0.956863 0.984314 1.000000
+Ks 0.956863 0.984314 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Documents and Settings\stevie\Desktop\Cartoon Fantasy Pack\a\th_wood05.jpg
+newmtl TREE
+Kd 0.988235 0.996078 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 100.000000
+d 1.000000
+illum 2
+map_Kd D:\textures\cartoon\tree15_h.jpg
+newmtl material28
+Kd 0.964706 1.000000 0.996078
+Ks 1.000000 1.000000 1.000000
+Ns 100.000000
+d 1.000000
+illum 2
+map_Kd D:\textures\cartoon\tree09_h.png

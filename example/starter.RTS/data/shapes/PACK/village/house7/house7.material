@@ -1,0 +1,214 @@
+// Creator: Ultimate Unwrap3D v2.27
+// Time: Mon Sep 11 15:42:02 2006
+
+material Unassigned
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+      }
+   }
+}
+material system
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture system.bmp
+         }
+      }
+   }
+}
+material kalied_stone
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture kalied_stone.jpg
+         }
+      }
+   }
+}
+material leaded_glass_png
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture leaded glass_png.png
+         }
+      }
+   }
+}
+material nice_stone1
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture nice_stone1.jpg
+         }
+      }
+   }
+}
+material nice_stone1_b
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture nice_stone1_b.jpg
+         }
+      }
+   }
+}
+material TFPole_2
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture TFPole_2.jpg
+         }
+      }
+   }
+}
+material r2
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture r2.jpg
+         }
+      }
+   }
+}
+material old_roof
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture old_roof.jpg
+         }
+      }
+   }
+}
+material mCdW46
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture mCdW46.jpg
+         }
+      }
+   }
+}
+material mCWis4
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture mCWis4.jpg
+         }
+      }
+   }
+}
+material stone_ivy
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture stone_ivy.png
+         }
+      }
+   }
+}

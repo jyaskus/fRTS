@@ -1,0 +1,86 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiFadeinBitmapCtrl(StartupGui) {
+   profile = "GuiInputCtrlProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   helpTag = "0";
+   bitmap = "./GarageGames";
+   wrap = "0";
+   fadeinTime = "125";
+   waitTime   = "3000";
+   fadeoutTime = "125";
+};
+//--- OBJECT WRITE END ---
+$MusicAudioType = 4; // channel 4 if it works
+
+new AudioDescription(AudioMusic)
+{
+   volume = 2.5;
+   isLooping = true;
+   is3D = false;
+   type = $MusicAudioType;
+};
+
+new AudioProfile(AudioStartup)
+{
+   filename = "~/data/sound/war.ogg"; // GUI music
+   description = "AudioMusic";
+   preload=true;
+};
+
+//for winter storm ambient sounds
+new AudioProfile(wasteAmbient)
+{
+   filename = "~/data/sound/waste.ogg"; // ambient sound
+   description = "AudioMusic";
+   preload=true;
+};
+new AudioProfile(snowAmbient)
+{
+   filename = "~/data/sound/snow.ogg"; // ambient sound
+   description = "AudioMusic";
+   preload=true;
+};
+
+//for forest ambient sounds
+new AudioProfile(rainAmbient)
+{
+   filename = "~/data/sound/amb2.ogg"; // ambient sound
+   description = "AudioMusic";
+   preload=true;
+};
+
+function loadStartup()
+{
+   StartupGui.done = false;
+   Canvas.setContent( StartupGui );
+   schedule(100, 0, checkStartupDone );
+   alxPlay(AudioStartup);
+   
+   echo("loadStartup - music started");
+}
+   
+
+//-------------------------------------
+function StartupGui::click()
+{
+   StartupGui.done = true;
+}
+
+
+//-------------------------------------
+function checkStartupDone()
+{
+   if (StartupGui.done)
+   {
+   	  echo ("*** Load Main Menu");
+      loadMainMenu();
+   }
+   else
+      schedule(100, 0, checkStartupDone );
+}
+

@@ -1,0 +1,6 @@
+OPRP
+
+LoadObject house6.fbx
+ObjectScale 40 40 40
+EnableLightMap 1
+CastLightMapShadow 1

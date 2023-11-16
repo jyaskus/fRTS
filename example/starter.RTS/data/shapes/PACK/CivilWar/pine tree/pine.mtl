@@ -1,0 +1,32 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D v2.29
+# Time: Wed Apr 18 12:49:24 2007
+# num_materials: 3
+
+newmtl Unassigned
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 1.000000
+
+newmtl leaf
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd pinetree_png.png
+
+newmtl bark
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd pine_bark.jpg
+
+# num_materials: 3

@@ -1,0 +1,59 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D v2.28
+# Time: Wed Nov 08 23:30:54 2006
+# num_materials: 6
+newmtl walls1
+Ka 0.000000 0.000000 0.000000
+Kd 0.964706 0.988235 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd th_Wall_b.jpg
+
+newmtl windows
+Ka 0.000000 0.000000 0.000000
+Kd 0.972549 0.972549 0.980392
+Ks 0.150000 0.150000 0.150000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd th_window_b.jpg
+
+newmtl roof
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd thatch.jpg
+
+newmtl chimney
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd h3stone.jpg
+
+newmtl chimney_top
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.980392 0.611765
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd chimney_inside.jpg
+
+newmtl door
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd th_door_a.jpg
+
+# num_materials: 6

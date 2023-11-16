@@ -1,0 +1,76 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(DemoPlayGuiOverlay) {
+   profile = "GuiModelessDialogProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   visible = "1";
+
+   new GuiBitmapCtrl(DemoGui) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "0 0";
+      extent = "580 210";
+      minExtent = "8 2";
+      visible = "1";
+      bitmap = "./demo/textbackground";
+      wrap = "0";
+
+      new GuiMLTextCtrl(DemoTitle) {
+         profile = "GuiMLTextProfile";
+         horizSizing = "relative";
+         vertSizing = "relative";
+         position = "160 5";
+         extent = "352 14";
+         minExtent = "8 2";
+         visible = "1";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+      new GuiBitmapButtonCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "relative";
+         vertSizing = "relative";
+         position = "16 6";
+         extent = "119 41";
+         minExtent = "8 2";
+         visible = "1";
+         command = "displayPreviousScreen();";
+         text = "Button";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "./demo/previous";
+      };
+      new GuiBitmapButtonCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "relative";
+         vertSizing = "relative";
+         position = "332 128";
+         extent = "168 54";
+         minExtent = "8 2";
+         visible = "1";
+         command = "displayNextScreen();";
+         text = "Button";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "./demo/next";
+      };
+      new GuiMLTextCtrl(DemoText) {
+         profile = "GuiMLTextProfile";
+         horizSizing = "relative";
+         vertSizing = "relative";
+         position = "160 24";
+         extent = "360 14";
+         minExtent = "8 2";
+         visible = "1";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,21 @@
+newmtl metal
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd g:\users\arteria\desktop\hexagon projects\civil war pack\wagon\metal.jpg
+newmtl wagon1
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd g:\users\arteria\desktop\hexagon projects\civil war pack\wagon\wagon_texture1.jpg
+newmtl wagon2
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd g:\users\arteria\desktop\hexagon projects\civil war pack\wagon\wagon_2.jpg

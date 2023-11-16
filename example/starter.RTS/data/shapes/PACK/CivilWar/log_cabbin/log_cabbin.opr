@@ -1,0 +1,5 @@
+OPRP
+
+LoadObject log_cabbin.obj
+ObjectScale 0.24 0.24 0.24
+CastStencilShadow 0

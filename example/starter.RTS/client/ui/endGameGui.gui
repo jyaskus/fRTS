@@ -1,0 +1,133 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(EndGameGui) {
+   profile = "GuiContentProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "1024 768";
+   minExtent = "8 8";
+   visible = "1";
+   bitmap = "./mainMenu/backdrop";
+   useVariable = "0";
+   tile = "0";
+      helpTag = "0";
+
+   new GuiControl() {
+      profile = "GuiWindowProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "11 12";
+      extent = "389 560";
+      minExtent = "8 8";
+      visible = "1";
+         helpTag = "0";
+
+      new GuiTextCtrl() {
+         profile = "GuiMediumTextProfile";
+         horizSizing = "center";
+         vertSizing = "bottom";
+         position = "69 15";
+         extent = "251 28";
+         minExtent = "8 8";
+         visible = "1";
+         text = "Game Over - Final Scores:";
+         maxLength = "255";
+            helpTag = "0";
+      };
+      new GuiScrollCtrl() {
+         profile = "GuiScrollProfile";
+         horizSizing = "width";
+         vertSizing = "height";
+         position = "5 51";
+         extent = "378 503";
+         minExtent = "8 8";
+         visible = "1";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "dynamic";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+            defaultLineHeight = "15";
+            helpTag = "0";
+
+         new GuiTextListCtrl(EndGameGuiList) {
+            profile = "GuiTextProfile";
+            horizSizing = "width";
+            vertSizing = "height";
+            position = "2 2";
+            extent = "374 327";
+            minExtent = "8 8";
+            visible = "1";
+            enumerate = "0";
+            resizeCell = "1";
+            columns = "0 256";
+            fitParentWidth = "1";
+            clipColumnText = "0";
+               helpTag = "0";
+         };
+      };
+   };
+   new GuiBitmapButtonCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "832 595";
+      extent = "192 48";
+      minExtent = "8 2";
+      visible = "1";
+      command = "disconnect();";
+      text = "Button";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      bitmap = "./lobby/disconnect";
+   };
+   new GuiTextEditCtrl(EndGameChatInput) {
+      profile = "GuiTextEditProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "410 553";
+      extent = "605 18";
+      minExtent = "8 16";
+      visible = "1";
+      altCommand = "commandToServer(\'messageSent\', trim($ThisControl.getValue())); $ThisControl.setValue(\"\");";
+      maxLength = "255";
+      historySize = "10";
+      password = "0";
+      tabComplete = "0";
+      sinkAllKeyEvents = "0";
+   };
+   new GuiScrollCtrl(EndGameChatScroller) {
+      profile = "GuiScrollProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "407 12";
+      extent = "605 524";
+      minExtent = "8 2";
+      visible = "1";
+      willFirstRespond = "1";
+      hScrollBar = "alwaysOn";
+      vScrollBar = "alwaysOn";
+      constantThumbHeight = "0";
+      childMargin = "0 0";
+
+      new GuiMessageVectorCtrl(EndGameChatCtrl) {
+         profile = "LobbyHudMessageProfile";
+         horizSizing = "width";
+         vertSizing = "top";
+         position = "2 2";
+         extent = "581 96";
+         minExtent = "8 2";
+         visible = "1";
+         lineSpacing = "0";
+         lineContinuedIndex = "10";
+         matchColor = "0 0 255 255";
+         maxColorIndex = "9";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+
+function EndGameGui::onWake(%this)
+{
+	EndGameChatCtrl.attach(HudMessageVector);
+}

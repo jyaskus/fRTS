@@ -1,0 +1,2 @@
+Non power of 2 texture automatically resized to 1024x1024 - wagon_texture1.jpg
+Non power of 2 texture automatically resized to 1024x1024 - wagon_2.jpg

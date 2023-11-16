@@ -1,0 +1,227 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(startMissionGui) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiContentProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   bitmap = "./mainMenu/backdrop";
+   useVariable = "0";
+   tile = "0";
+
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      position = "316 3";
+      Extent = "320 60";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "./lobby/select_mission";
+      wrap = "0";
+   };
+   new GuiBitmapButtonCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      position = "9 236";
+      Extent = "146 60";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "Canvas.setContent(mainMenuGui);";
+      hovertime = "1000";
+      text = "Back";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      bitmap = "./joinServer/back";
+   };
+   new GuiBitmapButtonCtrl(sm_launch) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      position = "349 373";
+      Extent = "245 77";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "SM_StartMission();";
+      hovertime = "1000";
+      text = "Launch Mission!";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      bitmap = "./lobby/launch_mission";
+   };
+   new GuiScrollCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiScrollProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      position = "206 51";
+      Extent = "423 299";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      willFirstRespond = "1";
+      hScrollBar = "dynamic";
+      vScrollBar = "alwaysOn";
+      constantThumbHeight = "0";
+      childMargin = "0 0";
+
+      new GuiTextListCtrl(SM_missionList) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextArrayProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "2 2";
+         Extent = "401 48";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         enumerate = "0";
+         resizeCell = "1";
+         columns = "0";
+         fitParentWidth = "1";
+         clipColumnText = "0";
+      };
+   };
+   new GuiCheckBoxCtrl(ML_isMultiplayer) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiCheckBoxProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "19 94";
+      Extent = "136 50";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      Variable = "pref::HostMultiPlayer";
+      hovertime = "1000";
+      text = "Host Multiplayer";
+      groupNum = "-1";
+      buttonType = "ToggleButton";
+      useInactiveState = "0";
+   };
+   new GuiTextEditCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiTextEditProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "15 71";
+      Extent = "134 18";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      Variable = "pref::Player::Name";
+      hovertime = "1000";
+      maxLength = "255";
+      historySize = "0";
+      password = "0";
+      tabComplete = "0";
+      sinkAllKeyEvents = "0";
+      password = "0";
+      passwordMask = "*";
+   };
+   new GuiTextCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiMediumTextProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "19 35";
+      Extent = "126 28";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      text = "Player Name:";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---
+
+
+//----------------------------------------
+function SM_StartMission()
+{
+   %id = SM_missionList.getSelectedId();
+   %mission = getField(SM_missionList.getRowTextById(%id), 1);
+
+   if ($pref::HostMultiPlayer)
+      %serverType = "MultiPlayer";
+   else
+      %serverType = "SinglePlayer";
+
+   createServer(%serverType, %mission);
+   %conn = new RTSConnection(ServerConnection);
+   RootGroup.add(ServerConnection);
+   %conn.setConnectArgs($pref::Player::Name);
+   %conn.setJoinPassword($Client::Password);
+   %conn.connectLocal();
+}
+
+
+//----------------------------------------
+function startMissionGui::onWake()
+{
+   SM_missionList.clear();
+   %i = 0;
+   for(%file = findFirstFile($Server::MissionFileSpec); %file !$= ""; %file = findNextFile($Server::MissionFileSpec))  
+      if (strStr(%file, "/CVS/") == -1)
+         SM_missionList.addRow(%i++, getMissionDisplayName(%file) @ "\t" @ %file );
+   SM_missionList.sort(0);
+   SM_missionList.setSelectedRow(0);
+   SM_missionList.scrollVisible(0);
+}   
+
+
+//----------------------------------------
+function getMissionDisplayName( %missionFile ) 
+{
+   %file = new FileObject();
+   
+   %MissionInfoObject = "";
+   
+   if ( %file.openForRead( %missionFile ) ) {
+		%inInfoBlock = false;
+		
+		while ( !%file.isEOF() ) {
+			%line = %file.readLine();
+			%line = trim( %line );
+			
+			if( %line $= "new ScriptObject(MissionInfo) {" )
+				%inInfoBlock = true;
+			else if( %inInfoBlock && %line $= "};" ) {
+				%inInfoBlock = false;
+				%MissionInfoObject = %MissionInfoObject @ %line; 
+				break;
+			}
+			
+			if( %inInfoBlock )
+			   %MissionInfoObject = %MissionInfoObject @ %line @ " "; 	
+		}
+		
+		%file.close();
+	}
+	%MissionInfoObject = "%MissionInfoObject = " @ %MissionInfoObject;
+	eval( %MissionInfoObject );
+	
+   %file.delete();
+
+   if( %MissionInfoObject.name !$= "" )
+      return %MissionInfoObject.name;
+   else
+      return fileBase(%missionFile); 
+}
+

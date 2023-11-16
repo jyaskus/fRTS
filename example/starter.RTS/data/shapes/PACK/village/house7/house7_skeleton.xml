@@ -1,0 +1,17 @@
+<!-- Creator: Ultimate Unwrap3D v2.27 -->
+<!-- Time: Mon Sep 11 15:42:02 2006 -->
+
+<skeleton>
+   <bones>
+      <bone id="0" name="Scene_Root_UU3D">
+         <position x="0.000000" y="0.000000" z="0.000000" />
+         <rotation angle="0.000000">
+            <axis x="1.000000" y="0.000000" z="0.000000" />
+         </rotation>
+      </bone>
+   </bones>
+   <bonehierarchy>
+   </bonehierarchy>
+   <animations>
+   </animations>
+</skeleton>

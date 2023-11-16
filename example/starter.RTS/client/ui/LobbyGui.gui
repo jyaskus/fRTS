@@ -1,0 +1,152 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(LobbyGui) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "1024 768";
+   minExtent = "8 2";
+   visible = "1";
+   bitmap = "./mainMenu/backdrop";
+   useVariable = "0";
+   tile = "0";
+
+   new GuiScrollCtrl(LobbyChatScroller) {
+      profile = "GuiScrollProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "313 164";
+      extent = "698 404";
+      minExtent = "8 2";
+      visible = "1";
+      willFirstRespond = "1";
+      hScrollBar = "alwaysOn";
+      vScrollBar = "alwaysOn";
+      constantThumbHeight = "0";
+      childMargin = "0 0";
+
+      new GuiMessageVectorCtrl(LobbyChatCtrl) {
+         profile = "LobbyHudMessageProfile";
+         horizSizing = "width";
+         vertSizing = "top";
+         position = "2 2";
+         extent = "674 16";
+         minExtent = "8 2";
+         visible = "1";
+         lineSpacing = "0";
+         lineContinuedIndex = "10";
+         matchColor = "0 0 255 255";
+         maxColorIndex = "9";
+      };
+   };
+   new GuiTextEditCtrl(LobbyChatInput) {
+      profile = "GuiTextEditProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "403 579";
+      extent = "608 25";
+      minExtent = "200 16";
+      visible = "1";
+      altCommand = "commandToServer(\'messageSent\', trim($ThisControl.getValue())); $ThisControl.setValue(\"\");";
+      maxLength = "255";
+      historySize = "10";
+      password = "0";
+      tabComplete = "0";
+      sinkAllKeyEvents = "0";
+   };
+   new GuiBitmapButtonCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "19 376";
+      extent = "192 44";
+      minExtent = "8 2";
+      visible = "1";
+      command = "disconnect();";
+      text = "Button";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      bitmap = "./lobby/disconnect";
+   };
+   new GuiBitmapButtonCtrl(LobbyStartGame) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "19 30";
+      extent = "144 144";
+      minExtent = "8 2";
+      visible = "1";
+      command = "LobbyGui::markReady();";
+      text = "Ready!";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      bitmap = "./lobby/ready";
+         isReady = "0";
+   };
+   new GuiControl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "314 9";
+      extent = "698 144";
+      minExtent = "8 2";
+      visible = "1";
+
+      new GuiBitmapCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "relative";
+         vertSizing = "relative";
+         position = "0 0";
+         extent = "698 144";
+         minExtent = "8 2";
+         visible = "1";
+         bitmap = "./hudfill";
+         wrap = "0";
+      };
+      new GuiTextListCtrl(LobbyPlayerList) {
+         profile = "LobbyHudMessageProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "7 3";
+         extent = "212 18";
+         minExtent = "30 2";
+         visible = "1";
+         enumerate = "0";
+         resizeCell = "1";
+         columns = "0 100 170";
+         fitParentWidth = "0";
+         clipColumnText = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+
+function LobbyGui::onWake(%this)
+{
+   LobbyStartGame.isReady = false;
+   LobbyStartGame.setBitmap( "starter.RTS/client/ui/lobby/ready" );
+   LobbyChatCtrl.attach(HudMessageVector);
+}
+
+function LobbyGui::markReady()
+{
+   if(LobbyStartGame.isReady)
+   {
+      echo( "We are no longer ready!" );
+      commandToServer('PlayerReady', false);
+      LobbyStartGame.isReady = false;
+      LobbyStartGame.setBitmap( "starter.RTS/client/ui/lobby/ready" );
+   } else {
+      echo( "We are now ready!" );
+      commandToServer('PlayerReady', true);
+      LobbyStartGame.isReady = true;
+      LobbyStartGame.setBitmap( "starter.RTS/client/ui/lobby/cancel_ready" );
+   }
+}
+
+addMessageCallback('MsgMissionLoad', handleMissionLoadStart);
+
+function handleMissionLoadStart()
+{
+   Canvas.setContent(LoadingGui);
+}

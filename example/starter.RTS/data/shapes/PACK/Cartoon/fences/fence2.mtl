@@ -1,0 +1,22 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D v2.28
+# Time: Thu Nov 09 00:07:22 2006
+# num_materials: 2
+newmtl def_surf_mat
+Ka 0.000000 0.000000 0.000000
+Kd 0.820000 0.830000 0.870000
+Ks 0.150000 0.150000 0.150000
+d 1.000000
+illum 2
+Ns 1.000000
+
+newmtl fence
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd fence04.jpg
+
+# num_materials: 2

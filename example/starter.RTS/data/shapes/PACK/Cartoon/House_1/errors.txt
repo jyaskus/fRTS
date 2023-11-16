@@ -1,0 +1,1 @@
+Non power of 2 texture automatically resized to 1024x512 - double_window.jpg

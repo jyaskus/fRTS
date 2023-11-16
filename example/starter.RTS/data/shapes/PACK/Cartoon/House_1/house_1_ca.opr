@@ -1,0 +1,8 @@
+OPRP
+
+LoadObject house_1_ca.fbx
+ObjectScale 20 20 20
+EnableLightMap 1
+CastLightMapShadow 1
+CastStencilShadow 1
+CollisionType UseRenderObject

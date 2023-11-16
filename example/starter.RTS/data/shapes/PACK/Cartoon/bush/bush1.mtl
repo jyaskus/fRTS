@@ -1,0 +1,14 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D v2.28
+# Time: Thu Nov 09 00:01:43 2006
+# num_materials: 1
+newmtl leaf
+Ka 0.000000 0.000000 0.000000
+Kd 0.988235 1.000000 0.996078
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd bush1.png
+
+# num_materials: 1

@@ -1,0 +1,4 @@
+OPRP
+
+LoadObject hut_2.obj
+ObjectScale 0.2 0.2 0.2

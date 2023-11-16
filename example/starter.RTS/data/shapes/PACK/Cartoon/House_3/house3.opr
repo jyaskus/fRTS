@@ -1,0 +1,5 @@
+OPRP
+
+LoadObject house3.fbx
+ObjectScale 17 17 17
+CastStencilShadow 1

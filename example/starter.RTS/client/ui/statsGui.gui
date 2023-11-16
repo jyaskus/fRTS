@@ -1,0 +1,111 @@
+//--- OBJECT WRITE BEGIN ---  
+new GuiControl(StatsGUI) {  
+    profile = "GuiDefaultProfile";  
+    horizSizing = "right";  
+    vertSizing = "bottom";  
+    position = "0 0";  
+    extent = "440 480";  
+    minExtent = "8 2";  
+    visible = "1";  
+   
+    new GuiWindowCtrl(StatsWindow) {  
+       profile = "GuiWindowProfile";  
+       horizSizing = "left";  
+       vertSizing = "bottom";  
+       position = "2 -2";  
+       extent = "320 460";  
+       minExtent = "8 2";  
+       visible = "1";  
+       text = "Stats";  
+       maxLength = "255";  
+       resizeWidth = "1";  
+       resizeHeight = "1";  
+       canMove = "1";  
+       canClose = "1";  
+       canMinimize = "1";  
+       canMaximize = "1";  
+       minSize = "50 50";  
+       CloseCommand = "Canvas.PopDialog(StatsGUI);";  
+        
+       new GuiScrollCtrl() {  
+          profile = "GuiScrollProfile";  
+          horizSizing = "left";  
+          vertSizing = "bottom";  
+          position = "30 30";  
+          extent = "200 400";  
+          minExtent = "8 2";  
+          visible = "1";  
+          willFirstRespond = "1";  
+          hScrollBar = "alwaysOn";  
+          vScrollBar = "alwaysOn";  
+          constantThumbHeight = "0";  
+          childMargin = "0 0";  
+   
+          new GuiTextListCtrl(StatsListView) {  
+             profile = "GuiTextArrayProfile";  
+             horizSizing = "center";  
+             vertSizing = "center";  
+             position = "2 2";  
+             extent = "188 2";  
+             minExtent = "8 2";  
+             visible = "1";  
+             enumerate = "0";  
+             resizeCell = "1";  
+             columns = "0";  
+             fitParentWidth = "1";  
+             clipColumnText = "0";  
+          };  
+       };  
+    };  
+ };  
+ //--- OBJECT WRITE END --- 
+ function toggleStatsGUI(%val)
+{
+	if(%val)
+      StatsGUI.toggle();
+}
+
+function StatsGUI::OnWake(%this)
+{
+	UpdateStatsListView();
+}
+
+//This function updates the StatsListView
+function UpdateStatsListView()
+{
+	StatsListView.clear();	
+
+	echo("Updating the players Stats gui ...");
+
+   // valid only for player 0 -- currently
+	%client = ClientGroup.getObject(0);	
+
+   // Client stats
+	StatsListView.addRow(0,"Client - Kills           :" SPC %client.stats["Kills"]);
+	StatsListView.addRow(1,"Client - Damage Done     :" SPC %client.stats["Damage Delt"]);
+	StatsListView.addRow(2,"Client - Units Built     :" SPC %client.stats["Units Built"]);
+	StatsListView.addRow(3,"Client - Buildings Built :" SPC %client.stats["Bldg Built"]);
+	StatsListView.addRow(4,"-------------------------------------------------------");
+	
+	%count = 5;
+	
+	if (isObject(%client.units))
+      for( %i = 0; %i < %client.units.getCount(); %i++ )
+      {
+         %unit = %client.units.getObject(%i);
+         %unitType = %unit.getDatablock().RTSUnitTypeName;
+         StatsListView.addRow(%count++,%i @ "." SPC %unitType SPC "Kills          :" SPC %unit.stats["Kills"]);      
+         StatsListView.addRow(%count++,%i @ "." SPC %unitType SPC "Damage Done    :" SPC %unit.stats["Damage Delt"]);	   
+      } 
+
+	StatsListView.setSelectedRow(0);
+	StatsListView.scrollVisible(0);
+}
+
+function StatsGUI::toggle(%this)
+{
+    if (%this.isAwake())
+      Canvas.popDialog(%this);
+    else
+      Canvas.pushDialog(%this);
+}

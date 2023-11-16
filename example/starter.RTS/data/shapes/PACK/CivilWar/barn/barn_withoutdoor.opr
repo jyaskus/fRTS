@@ -1,0 +1,5 @@
+OPRP
+
+LoadObject barn_withoutdoor.obj
+ObjectScale 0.24 0.24 0.24
+CastStencilShadow 1

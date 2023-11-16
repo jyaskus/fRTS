@@ -1,0 +1,3553 @@
+Max file C:\3dsmax4\Scenes\fx01\fx10.max exported to c:\documents and settings\sicht management\bureaublad\realm wars\rw\data\shapes\fx01\fx01.dts
+Exported on Sun Aug 11 16:18:43 2002
+
+
+Config file not found.
+First pass: collect useful nodes...
+
+Processing Node shape with parent Scene Root
+Found subtree starting at Node "shape"
+Processing Node start with parent shape
+Processing Node Plane145 with parent start
+Processing Node beams145 with parent start
+Processing Node innercone145 with parent start
+Processing Node outtercone145 with parent start
+Processing Node thingya145 with parent start
+Processing Node thingyb145 with parent start
+Processing Node detail145 with parent shape
+Processing Node bounds with parent Scene Root
+Bounding box found
+Processing Node castanim with parent Scene Root
+Sequence castanim found.
+
+Second pass:  put shape structure together...
+
+Adding detail named "detail145" of size 145 to subtree "shape".
+Adding node "shape" with parent "shape" to subtree rooted on max-node "shape".
+Adding node "start" with parent "shape" to subtree rooted on max-node "shape".
+Adding node "Plane145" with parent "start" to subtree rooted on max-node "shape".
+Attaching object to node.
+Adding object named "Plane".
+Adding mesh of size 145 to object "Plane".
+Object offset transform:
+    scale:            x=1.51000, y=1.51000, z=1.51000
+    stretch rotation: x=-0.15522, y=0.18034, z=0.15122, w=0.95943
+    translation:      x=0.00000, y=-0.00000, z=0.00000
+    actual rotation:  x=-0.00000, y=0.00000, z=0.00000, w=1.00000
+Adding node "beams145" with parent "start" to subtree rooted on max-node "shape".
+Attaching object to node.
+Adding object named "beams".
+Adding mesh of size 145 to object "beams".
+Object offset transform:
+    scale:            x=1.51000, y=1.51000, z=1.51000
+    stretch rotation: x=-0.19395, y=-0.28589, z=-0.19171, w=0.91864
+    translation:      x=-0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=0.00000, y=0.00000, z=-0.00000, w=1.00000
+Adding node "innercone145" with parent "start" to subtree rooted on max-node "shape".
+Attaching object to node.
+Adding object named "innercone".
+Adding mesh of size 145 to object "innercone".
+Object offset transform:
+    scale:            x=1.51000, y=1.51000, z=1.51000
+    stretch rotation: x=-0.13981, y=0.01019, z=0.03001, w=0.98967
+    translation:      x=-0.00000, y=0.00000, z=-0.00000
+    actual rotation:  x=0.00000, y=-0.00000, z=0.00000, w=1.00000
+Adding node "outtercone145" with parent "start" to subtree rooted on max-node "shape".
+Attaching object to node.
+Adding object named "outtercone".
+Adding mesh of size 145 to object "outtercone".
+Object offset transform:
+    scale:            x=1.51000, y=1.51000, z=1.51000
+    stretch rotation: x=-0.15901, y=-0.01666, z=-0.02897, w=0.98671
+    translation:      x=-0.00000, y=0.00000, z=-0.00000
+    actual rotation:  x=-0.00000, y=-0.00000, z=0.00000, w=1.00000
+Adding node "thingya145" with parent "start" to subtree rooted on max-node "shape".
+Attaching object to node.
+Adding object named "thingya".
+Adding mesh of size 145 to object "thingya".
+Object offset transform:
+    scale:            x=1.51000, y=1.51000, z=1.51000
+    stretch rotation: x=-0.38268, y=-0.00000, z=0.00000, w=0.92388
+    translation:      x=-0.00000, y=0.00000, z=-0.00000
+    actual rotation:  x=-0.00000, y=0.00000, z=0.00000, w=1.00000
+Adding node "thingyb145" with parent "start" to subtree rooted on max-node "shape".
+Attaching object to node.
+Adding object named "thingyb".
+Adding mesh of size 145 to object "thingyb".
+Object offset transform:
+    scale:            x=1.51000, y=1.51000, z=1.51000
+    stretch rotation: x=-0.38268, y=-0.00000, z=0.00000, w=0.92388
+    translation:      x=0.00000, y=0.00000, z=0.00000
+    actual rotation:  x=0.00000, y=-0.00000, z=-0.00000, w=1.00000
+
+Third pass:  Collapsing unneeded nodes...
+
+
+Add default object states...
+
+Adding object state to 1 detail level(s) of mesh "Plane".
+Adding frame.
+Object is not visible.
+4 faces, 6 verts, 6 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object is not visible.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Adding frame.
+Object is not visible.
+72 faces, 108 verts, 108 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Adding frame.
+Object is not visible.
+72 faces, 108 verts, 108 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Adding frame.
+Object is not visible.
+12 faces, 18 verts, 18 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Adding frame.
+Object is not visible.
+12 faces, 18 verts, 18 tverts before cropping textures and joining verts
+---------------------------------
+
+Add default node states...
+
+Adding node rotation at time 0 for node "shape".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "shape".
+  translation:     x=8.74416, y=0.01686, z=-1.30886
+---------------------------------
+Adding node rotation at time 0 for node "start".
+  rotation:     x=0.00000, y=0.00000, z=0.00000, w=1.00000
+---------------------------------
+Adding node translation at time 0 for node "start".
+  translation:     x=-0.80910, y=0.00000, z=0.00000
+---------------------------------
+Adding node rotation at time 0 for node "Plane145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "Plane145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 0 for node "beams145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "beams145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 0 for node "innercone145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "innercone145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 0 for node "outtercone145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "outtercone145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 0 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 0 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+
+Adding 1 sequences...
+
+Adding sequence 0 named "castanim"
+Enabled animation: MVT      , Forced animation:    , Default priority = 0.
+Duration = 5.03333, secPerFrame = 0.06711, # frames = 75
+Sequence includes 6 nodes, 6 objects, 0 decals, and 0 ifl materials
+  6 rotations, 2 translations, 0 scales
+
+Adding node rotation at time 0 for node "Plane145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node rotation at time 322 for node "Plane145".
+  rotation:     x=0.01489, y=-0.70693, z=-0.70693, w=0.01489
+---------------------------------
+Adding node rotation at time 644 for node "Plane145".
+  rotation:     x=0.02979, y=-0.70647, z=-0.70647, w=0.02979
+---------------------------------
+Adding node rotation at time 966 for node "Plane145".
+  rotation:     x=0.04465, y=-0.70568, z=-0.70568, w=0.04465
+---------------------------------
+Adding node rotation at time 1288 for node "Plane145".
+  rotation:     x=0.05951, y=-0.70458, z=-0.70458, w=0.05951
+---------------------------------
+Adding node rotation at time 1610 for node "Plane145".
+  rotation:     x=0.07434, y=-0.70318, z=-0.70318, w=0.07434
+---------------------------------
+Adding node rotation at time 1932 for node "Plane145".
+  rotation:     x=0.08914, y=-0.70144, z=-0.70144, w=0.08914
+---------------------------------
+Adding node rotation at time 2254 for node "Plane145".
+  rotation:     x=0.10392, y=-0.69942, z=-0.69942, w=0.10392
+---------------------------------
+Adding node rotation at time 2577 for node "Plane145".
+  rotation:     x=0.11869, y=-0.69704, z=-0.69704, w=0.11869
+---------------------------------
+Adding node rotation at time 2899 for node "Plane145".
+  rotation:     x=0.13334, y=-0.69439, z=-0.69439, w=0.13334
+---------------------------------
+Adding node rotation at time 3221 for node "Plane145".
+  rotation:     x=0.14795, y=-0.69143, z=-0.69143, w=0.14795
+---------------------------------
+Adding node rotation at time 3543 for node "Plane145".
+  rotation:     x=0.16248, y=-0.68816, z=-0.68816, w=0.16248
+---------------------------------
+Adding node rotation at time 3865 for node "Plane145".
+  rotation:     x=0.17695, y=-0.68459, z=-0.68459, w=0.17695
+---------------------------------
+Adding node rotation at time 4187 for node "Plane145".
+  rotation:     x=0.19135, y=-0.68072, z=-0.68072, w=0.19135
+---------------------------------
+Adding node rotation at time 4509 for node "Plane145".
+  rotation:     x=0.20563, y=-0.67653, z=-0.67653, w=0.20563
+---------------------------------
+Adding node rotation at time 4832 for node "Plane145".
+  rotation:     x=0.21989, y=-0.67202, z=-0.67202, w=0.21989
+---------------------------------
+Adding node rotation at time 5154 for node "Plane145".
+  rotation:     x=0.23402, y=-0.66723, z=-0.66723, w=0.23402
+---------------------------------
+Adding node rotation at time 5476 for node "Plane145".
+  rotation:     x=0.24802, y=-0.66216, z=-0.66216, w=0.24802
+---------------------------------
+Adding node rotation at time 5798 for node "Plane145".
+  rotation:     x=0.26191, y=-0.65679, z=-0.65679, w=0.26191
+---------------------------------
+Adding node rotation at time 6120 for node "Plane145".
+  rotation:     x=0.27570, y=-0.65111, z=-0.65111, w=0.27570
+---------------------------------
+Adding node rotation at time 6442 for node "Plane145".
+  rotation:     x=0.28938, y=-0.64516, z=-0.64516, w=0.28938
+---------------------------------
+Adding node rotation at time 6764 for node "Plane145".
+  rotation:     x=0.30290, y=-0.63894, z=-0.63894, w=0.30290
+---------------------------------
+Adding node rotation at time 7086 for node "Plane145".
+  rotation:     x=0.31629, y=-0.63240, z=-0.63240, w=0.31629
+---------------------------------
+Adding node rotation at time 7409 for node "Plane145".
+  rotation:     x=0.32960, y=-0.62557, z=-0.62557, w=0.32960
+---------------------------------
+Adding node rotation at time 7731 for node "Plane145".
+  rotation:     x=0.34269, y=-0.61849, z=-0.61849, w=0.34269
+---------------------------------
+Adding node rotation at time 8053 for node "Plane145".
+  rotation:     x=0.35566, y=-0.61113, z=-0.61113, w=0.35566
+---------------------------------
+Adding node rotation at time 8375 for node "Plane145".
+  rotation:     x=0.36845, y=-0.60350, z=-0.60350, w=0.36845
+---------------------------------
+Adding node rotation at time 8697 for node "Plane145".
+  rotation:     x=0.38108, y=-0.59560, z=-0.59560, w=0.38108
+---------------------------------
+Adding node rotation at time 9019 for node "Plane145".
+  rotation:     x=0.39357, y=-0.58742, z=-0.58742, w=0.39357
+---------------------------------
+Adding node rotation at time 9341 for node "Plane145".
+  rotation:     x=0.40587, y=-0.57900, z=-0.57900, w=0.40587
+---------------------------------
+Adding node rotation at time 9664 for node "Plane145".
+  rotation:     x=0.41801, y=-0.57030, z=-0.57030, w=0.41801
+---------------------------------
+Adding node rotation at time 9986 for node "Plane145".
+  rotation:     x=0.42994, y=-0.56136, z=-0.56136, w=0.42994
+---------------------------------
+Adding node rotation at time 10308 for node "Plane145".
+  rotation:     x=0.44166, y=-0.55217, z=-0.55217, w=0.44166
+---------------------------------
+Adding node rotation at time 10630 for node "Plane145".
+  rotation:     x=0.45320, y=-0.54274, z=-0.54274, w=0.45320
+---------------------------------
+Adding node rotation at time 10952 for node "Plane145".
+  rotation:     x=0.46455, y=-0.53307, z=-0.53307, w=0.46455
+---------------------------------
+Adding node rotation at time 11274 for node "Plane145".
+  rotation:     x=0.47566, y=-0.52318, z=-0.52318, w=0.47566
+---------------------------------
+Adding node rotation at time 11596 for node "Plane145".
+  rotation:     x=0.48659, y=-0.51302, z=-0.51302, w=0.48659
+---------------------------------
+Adding node rotation at time 11918 for node "Plane145".
+  rotation:     x=0.49730, y=-0.50267, z=-0.50267, w=0.49730
+---------------------------------
+Adding node rotation at time 12241 for node "Plane145".
+  rotation:     x=0.50780, y=-0.49205, z=-0.49205, w=0.50780
+---------------------------------
+Adding node rotation at time 12563 for node "Plane145".
+  rotation:     x=0.51805, y=-0.48122, z=-0.48122, w=0.51805
+---------------------------------
+Adding node rotation at time 12885 for node "Plane145".
+  rotation:     x=0.52809, y=-0.47020, z=-0.47020, w=0.52809
+---------------------------------
+Adding node rotation at time 13207 for node "Plane145".
+  rotation:     x=0.53789, y=-0.45897, z=-0.45897, w=0.53789
+---------------------------------
+Adding node rotation at time 13529 for node "Plane145".
+  rotation:     x=0.54744, y=-0.44752, z=-0.44752, w=0.54744
+---------------------------------
+Adding node rotation at time 13851 for node "Plane145".
+  rotation:     x=0.55675, y=-0.43590, z=-0.43590, w=0.55675
+---------------------------------
+Adding node rotation at time 14173 for node "Plane145".
+  rotation:     x=0.56581, y=-0.42405, z=-0.42405, w=0.56581
+---------------------------------
+Adding node rotation at time 14495 for node "Plane145".
+  rotation:     x=0.57463, y=-0.41206, z=-0.41206, w=0.57463
+---------------------------------
+Adding node rotation at time 14818 for node "Plane145".
+  rotation:     x=0.58321, y=-0.39979, z=-0.39979, w=0.58321
+---------------------------------
+Adding node rotation at time 15140 for node "Plane145".
+  rotation:     x=0.59151, y=-0.38743, z=-0.38743, w=0.59151
+---------------------------------
+Adding node rotation at time 15462 for node "Plane145".
+  rotation:     x=0.59954, y=-0.37489, z=-0.37489, w=0.59954
+---------------------------------
+Adding node rotation at time 15784 for node "Plane145".
+  rotation:     x=0.60729, y=-0.36216, z=-0.36216, w=0.60729
+---------------------------------
+Adding node rotation at time 16106 for node "Plane145".
+  rotation:     x=0.61480, y=-0.34928, z=-0.34928, w=0.61480
+---------------------------------
+Adding node rotation at time 16428 for node "Plane145".
+  rotation:     x=0.62203, y=-0.33625, z=-0.33625, w=0.62203
+---------------------------------
+Adding node rotation at time 16750 for node "Plane145".
+  rotation:     x=0.62896, y=-0.32307, z=-0.32307, w=0.62896
+---------------------------------
+Adding node rotation at time 17073 for node "Plane145".
+  rotation:     x=0.63567, y=-0.30970, z=-0.30970, w=0.63567
+---------------------------------
+Adding node rotation at time 17395 for node "Plane145".
+  rotation:     x=0.64205, y=-0.29624, z=-0.29624, w=0.64205
+---------------------------------
+Adding node rotation at time 17717 for node "Plane145".
+  rotation:     x=0.64815, y=-0.28263, z=-0.28263, w=0.64815
+---------------------------------
+Adding node rotation at time 18039 for node "Plane145".
+  rotation:     x=0.65395, y=-0.26893, z=-0.26893, w=0.65395
+---------------------------------
+Adding node rotation at time 18361 for node "Plane145".
+  rotation:     x=0.65947, y=-0.25507, z=-0.25507, w=0.65947
+---------------------------------
+Adding node rotation at time 18683 for node "Plane145".
+  rotation:     x=0.66469, y=-0.24113, z=-0.24113, w=0.66469
+---------------------------------
+Adding node rotation at time 19005 for node "Plane145".
+  rotation:     x=0.66964, y=-0.22706, z=-0.22706, w=0.66964
+---------------------------------
+Adding node rotation at time 19327 for node "Plane145".
+  rotation:     x=0.67428, y=-0.21290, z=-0.21290, w=0.67428
+---------------------------------
+Adding node rotation at time 19650 for node "Plane145".
+  rotation:     x=0.67864, y=-0.19858, z=-0.19858, w=0.67864
+---------------------------------
+Adding node rotation at time 19972 for node "Plane145".
+  rotation:     x=0.68267, y=-0.18424, z=-0.18424, w=0.68267
+---------------------------------
+Adding node rotation at time 20294 for node "Plane145".
+  rotation:     x=0.68639, y=-0.16984, z=-0.16984, w=0.68639
+---------------------------------
+Adding node rotation at time 20616 for node "Plane145".
+  rotation:     x=0.68981, y=-0.15531, z=-0.15531, w=0.68981
+---------------------------------
+Adding node rotation at time 20938 for node "Plane145".
+  rotation:     x=0.69295, y=-0.14075, z=-0.14075, w=0.69295
+---------------------------------
+Adding node rotation at time 21260 for node "Plane145".
+  rotation:     x=0.69576, y=-0.12610, z=-0.12610, w=0.69576
+---------------------------------
+Adding node rotation at time 21582 for node "Plane145".
+  rotation:     x=0.69826, y=-0.11142, z=-0.11142, w=0.69826
+---------------------------------
+Adding node rotation at time 21905 for node "Plane145".
+  rotation:     x=0.70046, y=-0.09665, z=-0.09665, w=0.70046
+---------------------------------
+Adding node rotation at time 22227 for node "Plane145".
+  rotation:     x=0.70232, y=-0.08185, z=-0.08185, w=0.70232
+---------------------------------
+Adding node rotation at time 22549 for node "Plane145".
+  rotation:     x=0.70391, y=-0.06705, z=-0.06705, w=0.70391
+---------------------------------
+Adding node rotation at time 22871 for node "Plane145".
+  rotation:     x=0.70516, y=-0.05219, z=-0.05219, w=0.70516
+---------------------------------
+Adding node rotation at time 23193 for node "Plane145".
+  rotation:     x=0.70611, y=-0.03732, z=-0.03732, w=0.70611
+---------------------------------
+Adding node rotation at time 23515 for node "Plane145".
+  rotation:     x=0.70675, y=-0.02243, z=-0.02243, w=0.70675
+---------------------------------
+Adding node rotation at time 23837 for node "Plane145".
+  rotation:     x=0.70705, y=-0.00754, z=-0.00754, w=0.70705
+---------------------------------
+Adding node rotation at time 0 for node "beams145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node rotation at time 322 for node "beams145".
+  rotation:     x=-0.01489, y=-0.70693, z=-0.70693, w=-0.01489
+---------------------------------
+Adding node rotation at time 644 for node "beams145".
+  rotation:     x=-0.02979, y=-0.70647, z=-0.70647, w=-0.02979
+---------------------------------
+Adding node rotation at time 966 for node "beams145".
+  rotation:     x=-0.04465, y=-0.70568, z=-0.70568, w=-0.04465
+---------------------------------
+Adding node rotation at time 1288 for node "beams145".
+  rotation:     x=-0.05951, y=-0.70458, z=-0.70458, w=-0.05951
+---------------------------------
+Adding node rotation at time 1610 for node "beams145".
+  rotation:     x=-0.07434, y=-0.70318, z=-0.70318, w=-0.07434
+---------------------------------
+Adding node rotation at time 1932 for node "beams145".
+  rotation:     x=-0.08914, y=-0.70144, z=-0.70144, w=-0.08914
+---------------------------------
+Adding node rotation at time 2254 for node "beams145".
+  rotation:     x=-0.10392, y=-0.69942, z=-0.69942, w=-0.10392
+---------------------------------
+Adding node rotation at time 2577 for node "beams145".
+  rotation:     x=-0.11869, y=-0.69704, z=-0.69704, w=-0.11869
+---------------------------------
+Adding node rotation at time 2899 for node "beams145".
+  rotation:     x=-0.13334, y=-0.69439, z=-0.69439, w=-0.13334
+---------------------------------
+Adding node rotation at time 3221 for node "beams145".
+  rotation:     x=-0.14795, y=-0.69143, z=-0.69143, w=-0.14795
+---------------------------------
+Adding node rotation at time 3543 for node "beams145".
+  rotation:     x=-0.16248, y=-0.68816, z=-0.68816, w=-0.16248
+---------------------------------
+Adding node rotation at time 3865 for node "beams145".
+  rotation:     x=-0.17695, y=-0.68459, z=-0.68459, w=-0.17695
+---------------------------------
+Adding node rotation at time 4187 for node "beams145".
+  rotation:     x=-0.19135, y=-0.68072, z=-0.68072, w=-0.19135
+---------------------------------
+Adding node rotation at time 4509 for node "beams145".
+  rotation:     x=-0.20563, y=-0.67653, z=-0.67653, w=-0.20563
+---------------------------------
+Adding node rotation at time 4832 for node "beams145".
+  rotation:     x=-0.21989, y=-0.67202, z=-0.67202, w=-0.21989
+---------------------------------
+Adding node rotation at time 5154 for node "beams145".
+  rotation:     x=-0.23402, y=-0.66723, z=-0.66723, w=-0.23402
+---------------------------------
+Adding node rotation at time 5476 for node "beams145".
+  rotation:     x=-0.24802, y=-0.66216, z=-0.66216, w=-0.24802
+---------------------------------
+Adding node rotation at time 5798 for node "beams145".
+  rotation:     x=-0.26191, y=-0.65679, z=-0.65679, w=-0.26191
+---------------------------------
+Adding node rotation at time 6120 for node "beams145".
+  rotation:     x=-0.27570, y=-0.65111, z=-0.65111, w=-0.27570
+---------------------------------
+Adding node rotation at time 6442 for node "beams145".
+  rotation:     x=-0.28938, y=-0.64516, z=-0.64516, w=-0.28938
+---------------------------------
+Adding node rotation at time 6764 for node "beams145".
+  rotation:     x=-0.30290, y=-0.63894, z=-0.63894, w=-0.30290
+---------------------------------
+Adding node rotation at time 7086 for node "beams145".
+  rotation:     x=-0.31629, y=-0.63240, z=-0.63240, w=-0.31629
+---------------------------------
+Adding node rotation at time 7409 for node "beams145".
+  rotation:     x=-0.32960, y=-0.62557, z=-0.62557, w=-0.32960
+---------------------------------
+Adding node rotation at time 7731 for node "beams145".
+  rotation:     x=-0.34269, y=-0.61849, z=-0.61849, w=-0.34269
+---------------------------------
+Adding node rotation at time 8053 for node "beams145".
+  rotation:     x=-0.35566, y=-0.61113, z=-0.61113, w=-0.35566
+---------------------------------
+Adding node rotation at time 8375 for node "beams145".
+  rotation:     x=-0.36845, y=-0.60350, z=-0.60350, w=-0.36845
+---------------------------------
+Adding node rotation at time 8697 for node "beams145".
+  rotation:     x=-0.38108, y=-0.59560, z=-0.59560, w=-0.38108
+---------------------------------
+Adding node rotation at time 9019 for node "beams145".
+  rotation:     x=-0.39357, y=-0.58742, z=-0.58742, w=-0.39357
+---------------------------------
+Adding node rotation at time 9341 for node "beams145".
+  rotation:     x=-0.40587, y=-0.57900, z=-0.57900, w=-0.40587
+---------------------------------
+Adding node rotation at time 9664 for node "beams145".
+  rotation:     x=-0.41801, y=-0.57030, z=-0.57030, w=-0.41801
+---------------------------------
+Adding node rotation at time 9986 for node "beams145".
+  rotation:     x=-0.42994, y=-0.56136, z=-0.56136, w=-0.42994
+---------------------------------
+Adding node rotation at time 10308 for node "beams145".
+  rotation:     x=-0.44166, y=-0.55217, z=-0.55217, w=-0.44166
+---------------------------------
+Adding node rotation at time 10630 for node "beams145".
+  rotation:     x=-0.45320, y=-0.54274, z=-0.54274, w=-0.45320
+---------------------------------
+Adding node rotation at time 10952 for node "beams145".
+  rotation:     x=-0.46455, y=-0.53307, z=-0.53307, w=-0.46455
+---------------------------------
+Adding node rotation at time 11274 for node "beams145".
+  rotation:     x=-0.47566, y=-0.52318, z=-0.52318, w=-0.47566
+---------------------------------
+Adding node rotation at time 11596 for node "beams145".
+  rotation:     x=-0.48659, y=-0.51302, z=-0.51302, w=-0.48659
+---------------------------------
+Adding node rotation at time 11918 for node "beams145".
+  rotation:     x=-0.49730, y=-0.50267, z=-0.50267, w=-0.49730
+---------------------------------
+Adding node rotation at time 12241 for node "beams145".
+  rotation:     x=0.50780, y=0.49205, z=0.49205, w=0.50780
+---------------------------------
+Adding node rotation at time 12563 for node "beams145".
+  rotation:     x=0.51805, y=0.48122, z=0.48122, w=0.51805
+---------------------------------
+Adding node rotation at time 12885 for node "beams145".
+  rotation:     x=0.52809, y=0.47020, z=0.47020, w=0.52809
+---------------------------------
+Adding node rotation at time 13207 for node "beams145".
+  rotation:     x=0.53789, y=0.45897, z=0.45897, w=0.53789
+---------------------------------
+Adding node rotation at time 13529 for node "beams145".
+  rotation:     x=0.54744, y=0.44752, z=0.44752, w=0.54744
+---------------------------------
+Adding node rotation at time 13851 for node "beams145".
+  rotation:     x=0.55675, y=0.43590, z=0.43590, w=0.55675
+---------------------------------
+Adding node rotation at time 14173 for node "beams145".
+  rotation:     x=0.56581, y=0.42405, z=0.42405, w=0.56581
+---------------------------------
+Adding node rotation at time 14495 for node "beams145".
+  rotation:     x=0.57463, y=0.41206, z=0.41206, w=0.57463
+---------------------------------
+Adding node rotation at time 14818 for node "beams145".
+  rotation:     x=0.58321, y=0.39979, z=0.39979, w=0.58321
+---------------------------------
+Adding node rotation at time 15140 for node "beams145".
+  rotation:     x=0.59151, y=0.38743, z=0.38743, w=0.59151
+---------------------------------
+Adding node rotation at time 15462 for node "beams145".
+  rotation:     x=0.59954, y=0.37489, z=0.37489, w=0.59954
+---------------------------------
+Adding node rotation at time 15784 for node "beams145".
+  rotation:     x=0.60729, y=0.36216, z=0.36216, w=0.60729
+---------------------------------
+Adding node rotation at time 16106 for node "beams145".
+  rotation:     x=0.61480, y=0.34928, z=0.34928, w=0.61480
+---------------------------------
+Adding node rotation at time 16428 for node "beams145".
+  rotation:     x=0.62203, y=0.33625, z=0.33625, w=0.62203
+---------------------------------
+Adding node rotation at time 16750 for node "beams145".
+  rotation:     x=0.62896, y=0.32307, z=0.32307, w=0.62896
+---------------------------------
+Adding node rotation at time 17073 for node "beams145".
+  rotation:     x=0.63567, y=0.30970, z=0.30970, w=0.63567
+---------------------------------
+Adding node rotation at time 17395 for node "beams145".
+  rotation:     x=0.64205, y=0.29624, z=0.29624, w=0.64205
+---------------------------------
+Adding node rotation at time 17717 for node "beams145".
+  rotation:     x=0.64815, y=0.28263, z=0.28263, w=0.64815
+---------------------------------
+Adding node rotation at time 18039 for node "beams145".
+  rotation:     x=0.65395, y=0.26893, z=0.26893, w=0.65395
+---------------------------------
+Adding node rotation at time 18361 for node "beams145".
+  rotation:     x=0.65947, y=0.25507, z=0.25507, w=0.65947
+---------------------------------
+Adding node rotation at time 18683 for node "beams145".
+  rotation:     x=0.66469, y=0.24113, z=0.24113, w=0.66469
+---------------------------------
+Adding node rotation at time 19005 for node "beams145".
+  rotation:     x=0.66964, y=0.22706, z=0.22706, w=0.66964
+---------------------------------
+Adding node rotation at time 19327 for node "beams145".
+  rotation:     x=0.67428, y=0.21290, z=0.21290, w=0.67428
+---------------------------------
+Adding node rotation at time 19650 for node "beams145".
+  rotation:     x=0.67864, y=0.19858, z=0.19858, w=0.67864
+---------------------------------
+Adding node rotation at time 19972 for node "beams145".
+  rotation:     x=0.68267, y=0.18424, z=0.18424, w=0.68267
+---------------------------------
+Adding node rotation at time 20294 for node "beams145".
+  rotation:     x=0.68639, y=0.16984, z=0.16984, w=0.68639
+---------------------------------
+Adding node rotation at time 20616 for node "beams145".
+  rotation:     x=0.68981, y=0.15531, z=0.15531, w=0.68981
+---------------------------------
+Adding node rotation at time 20938 for node "beams145".
+  rotation:     x=0.69295, y=0.14075, z=0.14075, w=0.69295
+---------------------------------
+Adding node rotation at time 21260 for node "beams145".
+  rotation:     x=0.69576, y=0.12610, z=0.12610, w=0.69576
+---------------------------------
+Adding node rotation at time 21582 for node "beams145".
+  rotation:     x=0.69826, y=0.11142, z=0.11142, w=0.69826
+---------------------------------
+Adding node rotation at time 21905 for node "beams145".
+  rotation:     x=0.70046, y=0.09665, z=0.09665, w=0.70046
+---------------------------------
+Adding node rotation at time 22227 for node "beams145".
+  rotation:     x=0.70232, y=0.08185, z=0.08185, w=0.70232
+---------------------------------
+Adding node rotation at time 22549 for node "beams145".
+  rotation:     x=0.70391, y=0.06705, z=0.06705, w=0.70391
+---------------------------------
+Adding node rotation at time 22871 for node "beams145".
+  rotation:     x=0.70516, y=0.05219, z=0.05219, w=0.70516
+---------------------------------
+Adding node rotation at time 23193 for node "beams145".
+  rotation:     x=0.70611, y=0.03732, z=0.03732, w=0.70611
+---------------------------------
+Adding node rotation at time 23515 for node "beams145".
+  rotation:     x=0.70675, y=0.02243, z=0.02243, w=0.70675
+---------------------------------
+Adding node rotation at time 23837 for node "beams145".
+  rotation:     x=0.70705, y=0.00754, z=0.00754, w=0.70705
+---------------------------------
+Adding node rotation at time 0 for node "innercone145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node rotation at time 322 for node "innercone145".
+  rotation:     x=0.02979, y=-0.70647, z=-0.70647, w=0.02979
+---------------------------------
+Adding node rotation at time 644 for node "innercone145".
+  rotation:     x=0.05951, y=-0.70458, z=-0.70458, w=0.05951
+---------------------------------
+Adding node rotation at time 966 for node "innercone145".
+  rotation:     x=0.08914, y=-0.70144, z=-0.70144, w=0.08914
+---------------------------------
+Adding node rotation at time 1288 for node "innercone145".
+  rotation:     x=0.11863, y=-0.69707, z=-0.69707, w=0.11863
+---------------------------------
+Adding node rotation at time 1610 for node "innercone145".
+  rotation:     x=0.14789, y=-0.69146, z=-0.69146, w=0.14789
+---------------------------------
+Adding node rotation at time 1932 for node "innercone145".
+  rotation:     x=0.17692, y=-0.68459, z=-0.68459, w=0.17692
+---------------------------------
+Adding node rotation at time 2254 for node "innercone145".
+  rotation:     x=0.20560, y=-0.67653, z=-0.67653, w=0.20560
+---------------------------------
+Adding node rotation at time 2577 for node "innercone145".
+  rotation:     x=0.23402, y=-0.66723, z=-0.66723, w=0.23402
+---------------------------------
+Adding node rotation at time 2899 for node "innercone145".
+  rotation:     x=0.26191, y=-0.65679, z=-0.65679, w=0.26191
+---------------------------------
+Adding node rotation at time 3221 for node "innercone145".
+  rotation:     x=0.28938, y=-0.64516, z=-0.64516, w=0.28938
+---------------------------------
+Adding node rotation at time 3543 for node "innercone145".
+  rotation:     x=0.31629, y=-0.63240, z=-0.63240, w=0.31629
+---------------------------------
+Adding node rotation at time 3865 for node "innercone145".
+  rotation:     x=0.34266, y=-0.61852, z=-0.61852, w=0.34266
+---------------------------------
+Adding node rotation at time 4187 for node "innercone145".
+  rotation:     x=0.36842, y=-0.60353, z=-0.60353, w=0.36842
+---------------------------------
+Adding node rotation at time 4509 for node "innercone145".
+  rotation:     x=0.39354, y=-0.58745, z=-0.58745, w=0.39354
+---------------------------------
+Adding node rotation at time 4832 for node "innercone145".
+  rotation:     x=0.41801, y=-0.57030, z=-0.57030, w=0.41801
+---------------------------------
+Adding node rotation at time 5154 for node "innercone145".
+  rotation:     x=0.44166, y=-0.55217, z=-0.55217, w=0.44166
+---------------------------------
+Adding node rotation at time 5476 for node "innercone145".
+  rotation:     x=0.46455, y=-0.53307, z=-0.53307, w=0.46455
+---------------------------------
+Adding node rotation at time 5798 for node "innercone145".
+  rotation:     x=0.48659, y=-0.51302, z=-0.51302, w=0.48659
+---------------------------------
+Adding node rotation at time 6120 for node "innercone145".
+  rotation:     x=0.50777, y=-0.49208, z=-0.49208, w=0.50777
+---------------------------------
+Adding node rotation at time 6442 for node "innercone145".
+  rotation:     x=0.52806, y=-0.47023, z=-0.47023, w=0.52806
+---------------------------------
+Adding node rotation at time 6764 for node "innercone145".
+  rotation:     x=0.54741, y=-0.44755, z=-0.44755, w=0.54741
+---------------------------------
+Adding node rotation at time 7086 for node "innercone145".
+  rotation:     x=0.56578, y=-0.42412, z=-0.42412, w=0.56578
+---------------------------------
+Adding node rotation at time 7409 for node "innercone145".
+  rotation:     x=0.58321, y=-0.39979, z=-0.39979, w=0.58321
+---------------------------------
+Adding node rotation at time 7731 for node "innercone145".
+  rotation:     x=0.59954, y=-0.37489, z=-0.37489, w=0.59954
+---------------------------------
+Adding node rotation at time 8053 for node "innercone145".
+  rotation:     x=0.61480, y=-0.34928, z=-0.34928, w=0.61480
+---------------------------------
+Adding node rotation at time 8375 for node "innercone145".
+  rotation:     x=0.62896, y=-0.32307, z=-0.32307, w=0.62896
+---------------------------------
+Adding node rotation at time 8697 for node "innercone145".
+  rotation:     x=0.64202, y=-0.29627, z=-0.29627, w=0.64202
+---------------------------------
+Adding node rotation at time 9019 for node "innercone145".
+  rotation:     x=0.65395, y=-0.26896, z=-0.26896, w=0.65395
+---------------------------------
+Adding node rotation at time 9341 for node "innercone145".
+  rotation:     x=0.66469, y=-0.24116, z=-0.24116, w=0.66469
+---------------------------------
+Adding node rotation at time 9664 for node "innercone145".
+  rotation:     x=0.67428, y=-0.21284, z=-0.21284, w=0.67428
+---------------------------------
+Adding node rotation at time 9986 for node "innercone145".
+  rotation:     x=0.68267, y=-0.18424, z=-0.18424, w=0.68267
+---------------------------------
+Adding node rotation at time 10308 for node "innercone145".
+  rotation:     x=0.68981, y=-0.15531, z=-0.15531, w=0.68981
+---------------------------------
+Adding node rotation at time 10630 for node "innercone145".
+  rotation:     x=0.69576, y=-0.12610, z=-0.12610, w=0.69576
+---------------------------------
+Adding node rotation at time 10952 for node "innercone145".
+  rotation:     x=0.70046, y=-0.09668, z=-0.09668, w=0.70046
+---------------------------------
+Adding node rotation at time 11274 for node "innercone145".
+  rotation:     x=0.70391, y=-0.06708, z=-0.06708, w=0.70391
+---------------------------------
+Adding node rotation at time 11596 for node "innercone145".
+  rotation:     x=0.70611, y=-0.03735, z=-0.03735, w=0.70611
+---------------------------------
+Adding node rotation at time 11918 for node "innercone145".
+  rotation:     x=0.70705, y=-0.00757, z=-0.00757, w=0.70705
+---------------------------------
+Adding node rotation at time 12241 for node "innercone145".
+  rotation:     x=0.70675, y=0.02228, z=0.02228, w=0.70675
+---------------------------------
+Adding node rotation at time 12563 for node "innercone145".
+  rotation:     x=0.70516, y=0.05203, z=0.05203, w=0.70516
+---------------------------------
+Adding node rotation at time 12885 for node "innercone145".
+  rotation:     x=0.70235, y=0.08173, z=0.08173, w=0.70235
+---------------------------------
+Adding node rotation at time 13207 for node "innercone145".
+  rotation:     x=0.69829, y=0.11124, z=0.11124, w=0.69829
+---------------------------------
+Adding node rotation at time 13529 for node "innercone145".
+  rotation:     x=0.69298, y=0.14057, z=0.14057, w=0.69298
+---------------------------------
+Adding node rotation at time 13851 for node "innercone145".
+  rotation:     x=0.68642, y=0.16965, z=0.16965, w=0.68642
+---------------------------------
+Adding node rotation at time 14173 for node "innercone145".
+  rotation:     x=0.67867, y=0.19843, z=0.19843, w=0.67867
+---------------------------------
+Adding node rotation at time 14495 for node "innercone145".
+  rotation:     x=0.66973, y=0.22684, z=0.22684, w=0.66973
+---------------------------------
+Adding node rotation at time 14818 for node "innercone145".
+  rotation:     x=0.65954, y=0.25495, z=0.25495, w=0.65954
+---------------------------------
+Adding node rotation at time 15140 for node "innercone145".
+  rotation:     x=0.64818, y=0.28251, z=0.28251, w=0.64821
+---------------------------------
+Adding node rotation at time 15462 for node "innercone145".
+  rotation:     x=0.63573, y=0.30958, z=0.30958, w=0.63573
+---------------------------------
+Adding node rotation at time 15784 for node "innercone145".
+  rotation:     x=0.62212, y=0.33607, z=0.33607, w=0.62212
+---------------------------------
+Adding node rotation at time 16106 for node "innercone145".
+  rotation:     x=0.60738, y=0.36201, z=0.36201, w=0.60738
+---------------------------------
+Adding node rotation at time 16428 for node "innercone145".
+  rotation:     x=0.59160, y=0.38728, z=0.38728, w=0.59160
+---------------------------------
+Adding node rotation at time 16750 for node "innercone145".
+  rotation:     x=0.57476, y=0.41185, z=0.41185, w=0.57476
+---------------------------------
+Adding node rotation at time 17073 for node "innercone145".
+  rotation:     x=0.55684, y=0.43577, z=0.43577, w=0.55684
+---------------------------------
+Adding node rotation at time 17395 for node "innercone145".
+  rotation:     x=0.53798, y=0.45888, z=0.45888, w=0.53798
+---------------------------------
+Adding node rotation at time 17717 for node "innercone145".
+  rotation:     x=0.51817, y=0.48112, z=0.48112, w=0.51817
+---------------------------------
+Adding node rotation at time 18039 for node "innercone145".
+  rotation:     x=-0.49742, y=-0.50252, z=-0.50252, w=-0.49742
+---------------------------------
+Adding node rotation at time 18361 for node "innercone145".
+  rotation:     x=-0.47581, y=-0.52306, z=-0.52306, w=-0.47581
+---------------------------------
+Adding node rotation at time 18683 for node "innercone145".
+  rotation:     x=-0.45335, y=-0.54262, z=-0.54262, w=-0.45335
+---------------------------------
+Adding node rotation at time 19005 for node "innercone145".
+  rotation:     x=-0.43007, y=-0.56127, z=-0.56127, w=-0.43007
+---------------------------------
+Adding node rotation at time 19327 for node "innercone145".
+  rotation:     x=-0.40605, y=-0.57888, z=-0.57888, w=-0.40605
+---------------------------------
+Adding node rotation at time 19650 for node "innercone145".
+  rotation:     x=-0.38121, y=-0.59551, z=-0.59551, w=-0.38121
+---------------------------------
+Adding node rotation at time 19972 for node "innercone145".
+  rotation:     x=-0.35578, y=-0.61107, z=-0.61107, w=-0.35578
+---------------------------------
+Adding node rotation at time 20294 for node "innercone145".
+  rotation:     x=-0.32972, y=-0.62551, z=-0.62551, w=-0.32972
+---------------------------------
+Adding node rotation at time 20616 for node "innercone145".
+  rotation:     x=-0.30308, y=-0.63884, z=-0.63884, w=-0.30308
+---------------------------------
+Adding node rotation at time 20938 for node "innercone145".
+  rotation:     x=-0.27589, y=-0.65105, z=-0.65105, w=-0.27589
+---------------------------------
+Adding node rotation at time 21260 for node "innercone145".
+  rotation:     x=-0.24821, y=-0.66210, z=-0.66210, w=-0.24821
+---------------------------------
+Adding node rotation at time 21582 for node "innercone145".
+  rotation:     x=-0.22007, y=-0.67196, z=-0.67196, w=-0.22007
+---------------------------------
+Adding node rotation at time 21905 for node "innercone145".
+  rotation:     x=-0.19147, y=-0.68065, z=-0.68065, w=-0.19147
+---------------------------------
+Adding node rotation at time 22227 for node "innercone145".
+  rotation:     x=-0.16263, y=-0.68813, z=-0.68813, w=-0.16263
+---------------------------------
+Adding node rotation at time 22549 for node "innercone145".
+  rotation:     x=-0.13349, y=-0.69439, z=-0.69439, w=-0.13349
+---------------------------------
+Adding node rotation at time 22871 for node "innercone145".
+  rotation:     x=-0.10410, y=-0.69939, z=-0.69939, w=-0.10410
+---------------------------------
+Adding node rotation at time 23193 for node "innercone145".
+  rotation:     x=-0.07456, y=-0.70315, z=-0.70315, w=-0.07456
+---------------------------------
+Adding node rotation at time 23515 for node "innercone145".
+  rotation:     x=-0.04483, y=-0.70568, z=-0.70568, w=-0.04483
+---------------------------------
+Adding node rotation at time 23837 for node "innercone145".
+  rotation:     x=-0.01508, y=-0.70693, z=-0.70693, w=-0.01508
+---------------------------------
+Adding node rotation at time 0 for node "outtercone145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node rotation at time 322 for node "outtercone145".
+  rotation:     x=-0.02979, y=-0.70647, z=-0.70647, w=-0.02979
+---------------------------------
+Adding node rotation at time 644 for node "outtercone145".
+  rotation:     x=-0.05951, y=-0.70458, z=-0.70458, w=-0.05951
+---------------------------------
+Adding node rotation at time 966 for node "outtercone145".
+  rotation:     x=-0.08914, y=-0.70144, z=-0.70144, w=-0.08914
+---------------------------------
+Adding node rotation at time 1288 for node "outtercone145".
+  rotation:     x=-0.11863, y=-0.69707, z=-0.69707, w=-0.11863
+---------------------------------
+Adding node rotation at time 1610 for node "outtercone145".
+  rotation:     x=-0.14789, y=-0.69146, z=-0.69146, w=-0.14789
+---------------------------------
+Adding node rotation at time 1932 for node "outtercone145".
+  rotation:     x=-0.17692, y=-0.68459, z=-0.68459, w=-0.17692
+---------------------------------
+Adding node rotation at time 2254 for node "outtercone145".
+  rotation:     x=-0.20560, y=-0.67653, z=-0.67653, w=-0.20560
+---------------------------------
+Adding node rotation at time 2577 for node "outtercone145".
+  rotation:     x=-0.23402, y=-0.66723, z=-0.66723, w=-0.23402
+---------------------------------
+Adding node rotation at time 2899 for node "outtercone145".
+  rotation:     x=-0.26191, y=-0.65679, z=-0.65679, w=-0.26191
+---------------------------------
+Adding node rotation at time 3221 for node "outtercone145".
+  rotation:     x=-0.28938, y=-0.64516, z=-0.64516, w=-0.28938
+---------------------------------
+Adding node rotation at time 3543 for node "outtercone145".
+  rotation:     x=-0.31629, y=-0.63240, z=-0.63240, w=-0.31629
+---------------------------------
+Adding node rotation at time 3865 for node "outtercone145".
+  rotation:     x=-0.34266, y=-0.61852, z=-0.61852, w=-0.34266
+---------------------------------
+Adding node rotation at time 4187 for node "outtercone145".
+  rotation:     x=-0.36842, y=-0.60353, z=-0.60353, w=-0.36842
+---------------------------------
+Adding node rotation at time 4509 for node "outtercone145".
+  rotation:     x=-0.39354, y=-0.58745, z=-0.58745, w=-0.39354
+---------------------------------
+Adding node rotation at time 4832 for node "outtercone145".
+  rotation:     x=-0.41801, y=-0.57030, z=-0.57030, w=-0.41801
+---------------------------------
+Adding node rotation at time 5154 for node "outtercone145".
+  rotation:     x=-0.44166, y=-0.55217, z=-0.55217, w=-0.44166
+---------------------------------
+Adding node rotation at time 5476 for node "outtercone145".
+  rotation:     x=-0.46455, y=-0.53307, z=-0.53307, w=-0.46455
+---------------------------------
+Adding node rotation at time 5798 for node "outtercone145".
+  rotation:     x=-0.48659, y=-0.51302, z=-0.51302, w=-0.48659
+---------------------------------
+Adding node rotation at time 6120 for node "outtercone145".
+  rotation:     x=0.50777, y=0.49208, z=0.49208, w=0.50777
+---------------------------------
+Adding node rotation at time 6442 for node "outtercone145".
+  rotation:     x=0.52806, y=0.47023, z=0.47023, w=0.52806
+---------------------------------
+Adding node rotation at time 6764 for node "outtercone145".
+  rotation:     x=0.54741, y=0.44755, z=0.44755, w=0.54741
+---------------------------------
+Adding node rotation at time 7086 for node "outtercone145".
+  rotation:     x=0.56578, y=0.42412, z=0.42412, w=0.56578
+---------------------------------
+Adding node rotation at time 7409 for node "outtercone145".
+  rotation:     x=0.58321, y=0.39979, z=0.39979, w=0.58321
+---------------------------------
+Adding node rotation at time 7731 for node "outtercone145".
+  rotation:     x=0.59954, y=0.37489, z=0.37489, w=0.59954
+---------------------------------
+Adding node rotation at time 8053 for node "outtercone145".
+  rotation:     x=0.61480, y=0.34928, z=0.34928, w=0.61480
+---------------------------------
+Adding node rotation at time 8375 for node "outtercone145".
+  rotation:     x=0.62896, y=0.32307, z=0.32307, w=0.62896
+---------------------------------
+Adding node rotation at time 8697 for node "outtercone145".
+  rotation:     x=0.64202, y=0.29627, z=0.29627, w=0.64202
+---------------------------------
+Adding node rotation at time 9019 for node "outtercone145".
+  rotation:     x=0.65395, y=0.26896, z=0.26896, w=0.65395
+---------------------------------
+Adding node rotation at time 9341 for node "outtercone145".
+  rotation:     x=0.66469, y=0.24116, z=0.24116, w=0.66469
+---------------------------------
+Adding node rotation at time 9664 for node "outtercone145".
+  rotation:     x=0.67428, y=0.21284, z=0.21284, w=0.67428
+---------------------------------
+Adding node rotation at time 9986 for node "outtercone145".
+  rotation:     x=0.68267, y=0.18424, z=0.18424, w=0.68267
+---------------------------------
+Adding node rotation at time 10308 for node "outtercone145".
+  rotation:     x=0.68981, y=0.15531, z=0.15531, w=0.68981
+---------------------------------
+Adding node rotation at time 10630 for node "outtercone145".
+  rotation:     x=0.69576, y=0.12610, z=0.12610, w=0.69576
+---------------------------------
+Adding node rotation at time 10952 for node "outtercone145".
+  rotation:     x=0.70046, y=0.09668, z=0.09668, w=0.70046
+---------------------------------
+Adding node rotation at time 11274 for node "outtercone145".
+  rotation:     x=0.70391, y=0.06708, z=0.06708, w=0.70391
+---------------------------------
+Adding node rotation at time 11596 for node "outtercone145".
+  rotation:     x=0.70611, y=0.03735, z=0.03735, w=0.70611
+---------------------------------
+Adding node rotation at time 11918 for node "outtercone145".
+  rotation:     x=0.70705, y=0.00757, z=0.00757, w=0.70705
+---------------------------------
+Adding node rotation at time 12241 for node "outtercone145".
+  rotation:     x=0.70675, y=-0.02228, z=-0.02228, w=0.70675
+---------------------------------
+Adding node rotation at time 12563 for node "outtercone145".
+  rotation:     x=0.70516, y=-0.05203, z=-0.05203, w=0.70516
+---------------------------------
+Adding node rotation at time 12885 for node "outtercone145".
+  rotation:     x=0.70235, y=-0.08173, z=-0.08173, w=0.70235
+---------------------------------
+Adding node rotation at time 13207 for node "outtercone145".
+  rotation:     x=0.69829, y=-0.11124, z=-0.11124, w=0.69829
+---------------------------------
+Adding node rotation at time 13529 for node "outtercone145".
+  rotation:     x=0.69298, y=-0.14057, z=-0.14057, w=0.69298
+---------------------------------
+Adding node rotation at time 13851 for node "outtercone145".
+  rotation:     x=0.68642, y=-0.16965, z=-0.16965, w=0.68642
+---------------------------------
+Adding node rotation at time 14173 for node "outtercone145".
+  rotation:     x=0.67867, y=-0.19843, z=-0.19843, w=0.67867
+---------------------------------
+Adding node rotation at time 14495 for node "outtercone145".
+  rotation:     x=0.66973, y=-0.22684, z=-0.22684, w=0.66973
+---------------------------------
+Adding node rotation at time 14818 for node "outtercone145".
+  rotation:     x=0.65954, y=-0.25495, z=-0.25495, w=0.65954
+---------------------------------
+Adding node rotation at time 15140 for node "outtercone145".
+  rotation:     x=0.64818, y=-0.28251, z=-0.28251, w=0.64818
+---------------------------------
+Adding node rotation at time 15462 for node "outtercone145".
+  rotation:     x=0.63573, y=-0.30958, z=-0.30958, w=0.63573
+---------------------------------
+Adding node rotation at time 15784 for node "outtercone145".
+  rotation:     x=0.62212, y=-0.33607, z=-0.33607, w=0.62212
+---------------------------------
+Adding node rotation at time 16106 for node "outtercone145".
+  rotation:     x=0.60738, y=-0.36201, z=-0.36201, w=0.60738
+---------------------------------
+Adding node rotation at time 16428 for node "outtercone145".
+  rotation:     x=0.59160, y=-0.38728, z=-0.38728, w=0.59160
+---------------------------------
+Adding node rotation at time 16750 for node "outtercone145".
+  rotation:     x=0.57476, y=-0.41185, z=-0.41185, w=0.57476
+---------------------------------
+Adding node rotation at time 17073 for node "outtercone145".
+  rotation:     x=0.55684, y=-0.43577, z=-0.43577, w=0.55684
+---------------------------------
+Adding node rotation at time 17395 for node "outtercone145".
+  rotation:     x=0.53798, y=-0.45888, z=-0.45888, w=0.53798
+---------------------------------
+Adding node rotation at time 17717 for node "outtercone145".
+  rotation:     x=0.51817, y=-0.48112, z=-0.48112, w=0.51817
+---------------------------------
+Adding node rotation at time 18039 for node "outtercone145".
+  rotation:     x=0.49742, y=-0.50252, z=-0.50252, w=0.49742
+---------------------------------
+Adding node rotation at time 18361 for node "outtercone145".
+  rotation:     x=0.47581, y=-0.52306, z=-0.52306, w=0.47581
+---------------------------------
+Adding node rotation at time 18683 for node "outtercone145".
+  rotation:     x=0.45335, y=-0.54262, z=-0.54262, w=0.45335
+---------------------------------
+Adding node rotation at time 19005 for node "outtercone145".
+  rotation:     x=0.43007, y=-0.56127, z=-0.56127, w=0.43007
+---------------------------------
+Adding node rotation at time 19327 for node "outtercone145".
+  rotation:     x=0.40605, y=-0.57888, z=-0.57888, w=0.40605
+---------------------------------
+Adding node rotation at time 19650 for node "outtercone145".
+  rotation:     x=0.38121, y=-0.59551, z=-0.59551, w=0.38121
+---------------------------------
+Adding node rotation at time 19972 for node "outtercone145".
+  rotation:     x=0.35578, y=-0.61107, z=-0.61107, w=0.35578
+---------------------------------
+Adding node rotation at time 20294 for node "outtercone145".
+  rotation:     x=0.32972, y=-0.62551, z=-0.62551, w=0.32972
+---------------------------------
+Adding node rotation at time 20616 for node "outtercone145".
+  rotation:     x=0.30308, y=-0.63884, z=-0.63884, w=0.30308
+---------------------------------
+Adding node rotation at time 20938 for node "outtercone145".
+  rotation:     x=0.27589, y=-0.65105, z=-0.65105, w=0.27589
+---------------------------------
+Adding node rotation at time 21260 for node "outtercone145".
+  rotation:     x=0.24821, y=-0.66210, z=-0.66210, w=0.24821
+---------------------------------
+Adding node rotation at time 21582 for node "outtercone145".
+  rotation:     x=0.22007, y=-0.67196, z=-0.67196, w=0.22007
+---------------------------------
+Adding node rotation at time 21905 for node "outtercone145".
+  rotation:     x=0.19147, y=-0.68065, z=-0.68065, w=0.19147
+---------------------------------
+Adding node rotation at time 22227 for node "outtercone145".
+  rotation:     x=0.16263, y=-0.68813, z=-0.68813, w=0.16263
+---------------------------------
+Adding node rotation at time 22549 for node "outtercone145".
+  rotation:     x=0.13349, y=-0.69439, z=-0.69439, w=0.13349
+---------------------------------
+Adding node rotation at time 22871 for node "outtercone145".
+  rotation:     x=0.10410, y=-0.69939, z=-0.69939, w=0.10410
+---------------------------------
+Adding node rotation at time 23193 for node "outtercone145".
+  rotation:     x=0.07456, y=-0.70315, z=-0.70315, w=0.07456
+---------------------------------
+Adding node rotation at time 23515 for node "outtercone145".
+  rotation:     x=0.04483, y=-0.70568, z=-0.70568, w=0.04483
+---------------------------------
+Adding node rotation at time 23837 for node "outtercone145".
+  rotation:     x=0.01508, y=-0.70693, z=-0.70693, w=0.01508
+---------------------------------
+Adding node rotation at time 0 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 322 for node "thingya145".
+  rotation:     x=0.28928, y=-0.64519, z=-0.64519, w=0.28928
+---------------------------------
+Adding node translation at time 322 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 644 for node "thingya145".
+  rotation:     x=0.52794, y=-0.47038, z=-0.47038, w=0.52794
+---------------------------------
+Adding node translation at time 644 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 966 for node "thingya145".
+  rotation:     x=0.67418, y=-0.21320, z=-0.21320, w=0.67418
+---------------------------------
+Adding node translation at time 966 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 1288 for node "thingya145".
+  rotation:     x=0.70241, y=0.08127, z=0.08127, w=0.70241
+---------------------------------
+Adding node translation at time 1288 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 1610 for node "thingya145".
+  rotation:     x=0.60768, y=0.36152, z=0.36152, w=0.60768
+---------------------------------
+Adding node translation at time 1610 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 1932 for node "thingya145".
+  rotation:     x=-0.40657, y=-0.57851, z=-0.57851, w=-0.40657
+---------------------------------
+Adding node translation at time 1932 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 2254 for node "thingya145".
+  rotation:     x=-0.13431, y=-0.69420, z=-0.69420, w=-0.13431
+---------------------------------
+Adding node translation at time 2254 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 2577 for node "thingya145".
+  rotation:     x=0.16236, y=-0.68819, z=-0.68819, w=0.16236
+---------------------------------
+Adding node translation at time 2577 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 2899 for node "thingya145".
+  rotation:     x=0.42970, y=-0.56154, z=-0.56154, w=0.42970
+---------------------------------
+Adding node translation at time 2899 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 3221 for node "thingya145".
+  rotation:     x=0.62185, y=-0.33656, z=-0.33659, w=0.62185
+---------------------------------
+Adding node translation at time 3221 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 3543 for node "thingya145".
+  rotation:     x=0.70513, y=-0.05271, z=-0.05271, w=0.70513
+---------------------------------
+Adding node translation at time 3543 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 3865 for node "thingya145".
+  rotation:     x=0.66497, y=0.24039, z=0.24039, w=0.66497
+---------------------------------
+Adding node translation at time 3865 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 4187 for node "thingya145".
+  rotation:     x=0.50841, y=0.49141, z=0.49141, w=0.50841
+---------------------------------
+Adding node translation at time 4187 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 4509 for node "thingya145".
+  rotation:     x=-0.26286, y=-0.65642, z=-0.65642, w=-0.26286
+---------------------------------
+Adding node translation at time 4509 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 4832 for node "thingya145".
+  rotation:     x=0.02960, y=-0.70647, z=-0.70647, w=0.02960
+---------------------------------
+Adding node translation at time 4832 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 5154 for node "thingya145".
+  rotation:     x=0.31605, y=-0.63253, z=-0.63253, w=0.31605
+---------------------------------
+Adding node translation at time 5154 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 5476 for node "thingya145".
+  rotation:     x=0.54717, y=-0.44786, z=-0.44786, w=0.54717
+---------------------------------
+Adding node translation at time 5476 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 5798 for node "thingya145".
+  rotation:     x=0.68252, y=-0.18479, z=-0.18479, w=0.68252
+---------------------------------
+Adding node translation at time 5798 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 6120 for node "thingya145".
+  rotation:     x=0.69839, y=0.11060, z=0.11060, w=0.69839
+---------------------------------
+Adding node translation at time 6120 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 6442 for node "thingya145".
+  rotation:     x=0.59200, y=0.38664, z=0.38664, w=0.59200
+---------------------------------
+Adding node translation at time 6442 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 6764 for node "thingya145".
+  rotation:     x=-0.38200, y=-0.59502, z=-0.59502, w=-0.38200
+---------------------------------
+Adding node translation at time 6764 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 7086 for node "thingya145".
+  rotation:     x=-0.10511, y=-0.69924, z=-0.69924, w=-0.10511
+---------------------------------
+Adding node translation at time 7086 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 7409 for node "thingya145".
+  rotation:     x=0.19105, y=-0.68081, z=-0.68081, w=0.19105
+---------------------------------
+Adding node translation at time 7409 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 7731 for node "thingya145".
+  rotation:     x=0.45283, y=-0.54305, z=-0.54305, w=0.45283
+---------------------------------
+Adding node translation at time 7731 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 8053 for node "thingya145".
+  rotation:     x=0.63540, y=-0.31025, z=-0.31025, w=0.63540
+---------------------------------
+Adding node translation at time 8053 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 8375 for node "thingya145".
+  rotation:     x=0.70672, y=-0.02313, z=-0.02313, w=0.70672
+---------------------------------
+Adding node translation at time 8375 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 8697 for node "thingya145".
+  rotation:     x=0.66060, y=0.25214, z=0.25214, w=0.66060
+---------------------------------
+Adding node translation at time 8697 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 9019 for node "thingya145".
+  rotation:     x=0.52083, y=0.47826, z=0.47826, w=0.52083
+---------------------------------
+Adding node translation at time 9019 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 9341 for node "thingya145".
+  rotation:     x=-0.28089, y=-0.64892, z=-0.64892, w=-0.28089
+---------------------------------
+Adding node translation at time 9341 for node "thingya145".
+  translation:     x=9.62144, y=1.70655, z=0.25999
+---------------------------------
+Adding node rotation at time 9664 for node "thingya145".
+  rotation:     x=0.04151, y=-0.70586, z=-0.70586, w=0.04151
+---------------------------------
+Adding node translation at time 9664 for node "thingya145".
+  translation:     x=9.62144, y=1.71066, z=0.25999
+---------------------------------
+Adding node rotation at time 9986 for node "thingya145".
+  rotation:     x=0.29331, y=-0.64336, z=-0.64336, w=0.29331
+---------------------------------
+Adding node translation at time 9986 for node "thingya145".
+  translation:     x=9.62144, y=1.85215, z=0.25999
+---------------------------------
+Adding node rotation at time 10308 for node "thingya145".
+  rotation:     x=0.54265, y=-0.45332, z=-0.45332, w=0.54265
+---------------------------------
+Adding node translation at time 10308 for node "thingya145".
+  translation:     x=9.62144, y=2.18280, z=0.25999
+---------------------------------
+Adding node rotation at time 10630 for node "thingya145".
+  rotation:     x=0.68822, y=-0.16227, z=-0.16227, w=0.68822
+---------------------------------
+Adding node translation at time 10630 for node "thingya145".
+  translation:     x=9.62144, y=2.68578, z=0.25999
+---------------------------------
+Adding node rotation at time 10952 for node "thingya145".
+  rotation:     x=0.69314, y=0.13974, z=0.13974, w=0.69314
+---------------------------------
+Adding node translation at time 10952 for node "thingya145".
+  translation:     x=9.62144, y=3.34421, z=0.25999
+---------------------------------
+Adding node rotation at time 11274 for node "thingya145".
+  rotation:     x=0.57530, y=0.41111, z=0.41111, w=0.57530
+---------------------------------
+Adding node translation at time 11274 for node "thingya145".
+  translation:     x=9.62144, y=4.14125, z=0.25999
+---------------------------------
+Adding node rotation at time 11596 for node "thingya145".
+  rotation:     x=-0.35673, y=-0.61049, z=-0.61049, w=-0.35673
+---------------------------------
+Adding node translation at time 11596 for node "thingya145".
+  translation:     x=9.62143, y=5.06005, z=0.25999
+---------------------------------
+Adding node rotation at time 11918 for node "thingya145".
+  rotation:     x=-0.07575, y=-0.70302, z=-0.70302, w=-0.07575
+---------------------------------
+Adding node translation at time 11918 for node "thingya145".
+  translation:     x=9.62144, y=6.08374, z=0.25999
+---------------------------------
+Adding node rotation at time 12241 for node "thingya145".
+  rotation:     x=0.21937, y=-0.67220, z=-0.67220, w=0.21937
+---------------------------------
+Adding node translation at time 12241 for node "thingya145".
+  translation:     x=9.62144, y=7.19904, z=0.25999
+---------------------------------
+Adding node rotation at time 12563 for node "thingya145".
+  rotation:     x=0.47520, y=-0.52361, z=-0.52361, w=0.47520
+---------------------------------
+Adding node translation at time 12563 for node "thingya145".
+  translation:     x=9.62144, y=8.38216, z=0.25999
+---------------------------------
+Adding node rotation at time 12885 for node "thingya145".
+  rotation:     x=0.64782, y=-0.28336, z=-0.28336, w=0.64782
+---------------------------------
+Adding node translation at time 12885 for node "thingya145".
+  translation:     x=9.62144, y=9.61956, z=0.25999
+---------------------------------
+Adding node rotation at time 13207 for node "thingya145".
+  rotation:     x=0.70705, y=0.00647, z=0.00647, w=0.70705
+---------------------------------
+Adding node translation at time 13207 for node "thingya145".
+  translation:     x=9.62144, y=10.89438, z=0.25999
+---------------------------------
+Adding node rotation at time 13529 for node "thingya145".
+  rotation:     x=0.64254, y=0.29518, z=0.29518, w=0.64254
+---------------------------------
+Adding node translation at time 13529 for node "thingya145".
+  translation:     x=9.62144, y=12.18977, z=0.25999
+---------------------------------
+Adding node rotation at time 13851 for node "thingya145".
+  rotation:     x=-0.46553, y=-0.53221, z=-0.53221, w=-0.46553
+---------------------------------
+Adding node translation at time 13851 for node "thingya145".
+  translation:     x=9.62144, y=13.48888, z=0.25999
+---------------------------------
+Adding node rotation at time 14173 for node "thingya145".
+  rotation:     x=-0.20701, y=-0.67611, z=-0.67611, w=-0.20701
+---------------------------------
+Adding node translation at time 14173 for node "thingya145".
+  translation:     x=9.62144, y=14.77486, z=0.25999
+---------------------------------
+Adding node rotation at time 14495 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 14495 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 14818 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 14818 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 15140 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 15140 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 15462 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 15462 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 15784 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 15784 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 16106 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 16106 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 16428 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 16428 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 16750 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 16750 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 17073 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 17073 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 17395 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 17395 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 17717 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 17717 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 18039 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 18039 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 18361 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 18361 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 18683 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 18683 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 19005 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 19005 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 19327 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 19327 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 19650 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 19650 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 19972 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 19972 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 20294 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 20294 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 20616 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 20616 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 20938 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 20938 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 21260 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 21260 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 21582 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 21582 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 21905 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 21905 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 22227 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 22227 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 22549 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 22549 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 22871 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 22871 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 23193 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 23193 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 23515 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 23515 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 23837 for node "thingya145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 23837 for node "thingya145".
+  translation:     x=9.62144, y=15.66440, z=0.25999
+---------------------------------
+Adding node rotation at time 0 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 0 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 322 for node "thingyb145".
+  rotation:     x=-0.28928, y=-0.64519, z=-0.64519, w=-0.28928
+---------------------------------
+Adding node translation at time 322 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 644 for node "thingyb145".
+  rotation:     x=0.52794, y=0.47038, z=0.47038, w=0.52794
+---------------------------------
+Adding node translation at time 644 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 966 for node "thingyb145".
+  rotation:     x=0.67418, y=0.21320, z=0.21320, w=0.67418
+---------------------------------
+Adding node translation at time 966 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 1288 for node "thingyb145".
+  rotation:     x=0.70241, y=-0.08127, z=-0.08127, w=0.70241
+---------------------------------
+Adding node translation at time 1288 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 1610 for node "thingyb145".
+  rotation:     x=0.60768, y=-0.36152, z=-0.36152, w=0.60768
+---------------------------------
+Adding node translation at time 1610 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 1932 for node "thingyb145".
+  rotation:     x=0.40657, y=-0.57851, z=-0.57851, w=0.40657
+---------------------------------
+Adding node translation at time 1932 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 2254 for node "thingyb145".
+  rotation:     x=0.13431, y=-0.69420, z=-0.69420, w=0.13431
+---------------------------------
+Adding node translation at time 2254 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 2577 for node "thingyb145".
+  rotation:     x=-0.16236, y=-0.68819, z=-0.68819, w=-0.16236
+---------------------------------
+Adding node translation at time 2577 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 2899 for node "thingyb145".
+  rotation:     x=-0.42970, y=-0.56154, z=-0.56154, w=-0.42970
+---------------------------------
+Adding node translation at time 2899 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 3221 for node "thingyb145".
+  rotation:     x=0.62185, y=0.33656, z=0.33656, w=0.62185
+---------------------------------
+Adding node translation at time 3221 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 3543 for node "thingyb145".
+  rotation:     x=0.70513, y=0.05271, z=0.05271, w=0.70513
+---------------------------------
+Adding node translation at time 3543 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 3865 for node "thingyb145".
+  rotation:     x=0.66497, y=-0.24039, z=-0.24039, w=0.66497
+---------------------------------
+Adding node translation at time 3865 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 4187 for node "thingyb145".
+  rotation:     x=0.50841, y=-0.49141, z=-0.49141, w=0.50841
+---------------------------------
+Adding node translation at time 4187 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 4509 for node "thingyb145".
+  rotation:     x=0.26286, y=-0.65642, z=-0.65642, w=0.26286
+---------------------------------
+Adding node translation at time 4509 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 4832 for node "thingyb145".
+  rotation:     x=-0.02960, y=-0.70647, z=-0.70647, w=-0.02960
+---------------------------------
+Adding node translation at time 4832 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 5154 for node "thingyb145".
+  rotation:     x=-0.31605, y=-0.63253, z=-0.63253, w=-0.31605
+---------------------------------
+Adding node translation at time 5154 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 5476 for node "thingyb145".
+  rotation:     x=0.54717, y=0.44786, z=0.44786, w=0.54717
+---------------------------------
+Adding node translation at time 5476 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 5798 for node "thingyb145".
+  rotation:     x=0.68252, y=0.18479, z=0.18479, w=0.68252
+---------------------------------
+Adding node translation at time 5798 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 6120 for node "thingyb145".
+  rotation:     x=0.69839, y=-0.11060, z=-0.11060, w=0.69839
+---------------------------------
+Adding node translation at time 6120 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 6442 for node "thingyb145".
+  rotation:     x=0.59200, y=-0.38664, z=-0.38664, w=0.59200
+---------------------------------
+Adding node translation at time 6442 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 6764 for node "thingyb145".
+  rotation:     x=0.38200, y=-0.59502, z=-0.59502, w=0.38200
+---------------------------------
+Adding node translation at time 6764 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 7086 for node "thingyb145".
+  rotation:     x=0.10511, y=-0.69924, z=-0.69924, w=0.10511
+---------------------------------
+Adding node translation at time 7086 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 7409 for node "thingyb145".
+  rotation:     x=-0.19105, y=-0.68081, z=-0.68081, w=-0.19105
+---------------------------------
+Adding node translation at time 7409 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 7731 for node "thingyb145".
+  rotation:     x=-0.45283, y=-0.54305, z=-0.54305, w=-0.45283
+---------------------------------
+Adding node translation at time 7731 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 8053 for node "thingyb145".
+  rotation:     x=0.63540, y=0.31025, z=0.31025, w=0.63540
+---------------------------------
+Adding node translation at time 8053 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 8375 for node "thingyb145".
+  rotation:     x=0.70672, y=0.02313, z=0.02313, w=0.70672
+---------------------------------
+Adding node translation at time 8375 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 8697 for node "thingyb145".
+  rotation:     x=0.66060, y=-0.25214, z=-0.25214, w=0.66060
+---------------------------------
+Adding node translation at time 8697 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 9019 for node "thingyb145".
+  rotation:     x=0.52083, y=-0.47826, z=-0.47826, w=0.52083
+---------------------------------
+Adding node translation at time 9019 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 9341 for node "thingyb145".
+  rotation:     x=0.28089, y=-0.64892, z=-0.64892, w=0.28089
+---------------------------------
+Adding node translation at time 9341 for node "thingyb145".
+  translation:     x=9.62144, y=1.28768, z=0.25999
+---------------------------------
+Adding node rotation at time 9664 for node "thingyb145".
+  rotation:     x=-0.04151, y=-0.70586, z=-0.70586, w=-0.04151
+---------------------------------
+Adding node translation at time 9664 for node "thingyb145".
+  translation:     x=9.62144, y=1.47379, z=0.25999
+---------------------------------
+Adding node rotation at time 9986 for node "thingyb145".
+  rotation:     x=-0.29331, y=-0.64336, z=-0.64336, w=-0.29331
+---------------------------------
+Adding node translation at time 9986 for node "thingyb145".
+  translation:     x=9.62144, y=2.41016, z=0.25999
+---------------------------------
+Adding node rotation at time 10308 for node "thingyb145".
+  rotation:     x=0.54265, y=0.45332, z=0.45332, w=0.54265
+---------------------------------
+Adding node translation at time 10308 for node "thingyb145".
+  translation:     x=9.62144, y=3.34654, z=0.25999
+---------------------------------
+Adding node rotation at time 10630 for node "thingyb145".
+  rotation:     x=0.68822, y=0.16227, z=0.16227, w=0.68822
+---------------------------------
+Adding node translation at time 10630 for node "thingyb145".
+  translation:     x=9.62144, y=4.28291, z=0.25999
+---------------------------------
+Adding node rotation at time 10952 for node "thingyb145".
+  rotation:     x=0.69314, y=-0.13974, z=-0.13974, w=0.69314
+---------------------------------
+Adding node translation at time 10952 for node "thingyb145".
+  translation:     x=9.62144, y=5.21928, z=0.25999
+---------------------------------
+Adding node rotation at time 11274 for node "thingyb145".
+  rotation:     x=0.57530, y=-0.41111, z=-0.41111, w=0.57530
+---------------------------------
+Adding node translation at time 11274 for node "thingyb145".
+  translation:     x=9.62144, y=6.15565, z=0.25999
+---------------------------------
+Adding node rotation at time 11596 for node "thingyb145".
+  rotation:     x=0.35673, y=-0.61049, z=-0.61049, w=0.35673
+---------------------------------
+Adding node translation at time 11596 for node "thingyb145".
+  translation:     x=9.62143, y=7.09203, z=0.25999
+---------------------------------
+Adding node rotation at time 11918 for node "thingyb145".
+  rotation:     x=0.07575, y=-0.70302, z=-0.70302, w=0.07575
+---------------------------------
+Adding node translation at time 11918 for node "thingyb145".
+  translation:     x=9.62144, y=8.02840, z=0.25999
+---------------------------------
+Adding node rotation at time 12241 for node "thingyb145".
+  rotation:     x=-0.21937, y=-0.67220, z=-0.67220, w=-0.21937
+---------------------------------
+Adding node translation at time 12241 for node "thingyb145".
+  translation:     x=9.62144, y=8.96768, z=0.25999
+---------------------------------
+Adding node rotation at time 12563 for node "thingyb145".
+  rotation:     x=-0.47520, y=-0.52361, z=-0.52361, w=-0.47520
+---------------------------------
+Adding node translation at time 12563 for node "thingyb145".
+  translation:     x=9.62144, y=9.90406, z=0.25999
+---------------------------------
+Adding node rotation at time 12885 for node "thingyb145".
+  rotation:     x=0.64782, y=0.28336, z=0.28336, w=0.64782
+---------------------------------
+Adding node translation at time 12885 for node "thingyb145".
+  translation:     x=9.62144, y=10.84043, z=0.25999
+---------------------------------
+Adding node rotation at time 13207 for node "thingyb145".
+  rotation:     x=0.70705, y=-0.00647, z=-0.00647, w=0.70705
+---------------------------------
+Adding node translation at time 13207 for node "thingyb145".
+  translation:     x=9.62144, y=11.77680, z=0.25999
+---------------------------------
+Adding node rotation at time 13529 for node "thingyb145".
+  rotation:     x=0.64254, y=-0.29518, z=-0.29518, w=0.64254
+---------------------------------
+Adding node translation at time 13529 for node "thingyb145".
+  translation:     x=9.62144, y=12.71317, z=0.25999
+---------------------------------
+Adding node rotation at time 13851 for node "thingyb145".
+  rotation:     x=0.46553, y=-0.53221, z=-0.53221, w=0.46553
+---------------------------------
+Adding node translation at time 13851 for node "thingyb145".
+  translation:     x=9.62144, y=13.64955, z=0.25999
+---------------------------------
+Adding node rotation at time 14173 for node "thingyb145".
+  rotation:     x=0.20701, y=-0.67611, z=-0.67611, w=0.20701
+---------------------------------
+Adding node translation at time 14173 for node "thingyb145".
+  translation:     x=9.62144, y=14.58592, z=0.25999
+---------------------------------
+Adding node rotation at time 14495 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 14495 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 14818 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 14818 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 15140 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 15140 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 15462 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 15462 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 15784 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 15784 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 16106 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 16106 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 16428 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 16428 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 16750 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 16750 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 17073 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 17073 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 17395 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 17395 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 17717 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 17717 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 18039 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 18039 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 18361 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 18361 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 18683 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 18683 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 19005 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 19005 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 19327 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 19327 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 19650 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 19650 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 19972 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 19972 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 20294 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 20294 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 20616 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 20616 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 20938 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 20938 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 21260 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 21260 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 21582 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 21582 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 21905 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 21905 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 22227 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 22227 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 22549 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 22549 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 22871 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 22871 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 23193 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 23193 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 23515 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 23515 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding node rotation at time 23837 for node "thingyb145".
+  rotation:     x=0.00000, y=-0.70708, z=-0.70708, w=0.00000
+---------------------------------
+Adding node translation at time 23837 for node "thingyb145".
+  translation:     x=9.62144, y=15.24603, z=0.25999
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.241 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.442 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.603 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.722 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.802 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.817 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.770 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.695 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.627 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.600 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.620 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.665 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.720 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.770 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.802 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.811 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.803 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.783 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.754 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.720 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.685 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.651 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.624 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.605 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.600 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.606 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.618 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.637 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.659 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.685 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.711 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.738 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.763 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.786 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.804 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.820 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.835 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.850 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.864 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.877 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.890 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.902 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.913 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.923 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.933 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.942 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.950 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.958 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.965 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.971 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.976 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.981 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.985 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.988 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.989 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.986 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.982 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.978 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.973 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.967 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.960 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.953 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.945 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.936 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.927 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.917 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "Plane".
+Object visibility = 0.906 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object is not visible.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.035 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.069 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.102 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.135 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.167 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.199 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.230 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.260 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.290 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.319 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.347 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.374 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.401 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.428 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.453 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.478 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.503 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.526 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.549 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.572 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.593 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.615 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.635 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.655 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.674 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.692 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.710 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.727 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.744 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.759 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.775 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.789 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.803 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.816 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.829 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.841 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.852 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.862 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.872 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.882 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.890 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.898 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.905 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.912 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.918 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.923 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.928 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.932 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.935 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.938 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.940 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.942 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.942 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.943 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.942 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.941 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.939 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.936 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.933 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.929 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.925 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.920 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.914 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.907 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.900 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.893 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.884 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.875 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.865 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.855 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.844 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.832 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.820 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "beams".
+Adding frame.
+Object visibility = 0.807 out of 1.
+16 faces, 24 verts, 24 tverts before cropping textures and joining verts
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.094 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.184 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.271 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.353 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.432 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.506 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.577 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.644 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.707 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.766 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.821 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.873 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.920 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.964 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.986 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.960 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.934 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.908 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.882 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.856 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.833 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.811 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.791 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.775 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.762 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.753 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.749 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.747 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.745 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.744 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.743 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.743 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.743 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.744 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.746 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.748 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.751 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.754 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.758 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.763 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.768 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.774 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.780 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.787 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.794 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.802 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.811 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.820 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.829 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.840 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.851 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.862 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.874 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.887 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.900 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.914 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.928 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.943 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.959 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object visibility = 0.975 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "innercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.034 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.067 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.101 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.134 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.168 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.201 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.235 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.268 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.302 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.336 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.369 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.403 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.436 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.470 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.503 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.537 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.570 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.604 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.637 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.671 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.705 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.738 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.772 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.805 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.839 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.872 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.906 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.939 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object visibility = 0.973 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "outtercone".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.112 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.219 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.319 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.414 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.503 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.581 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.646 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.698 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.739 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.770 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.792 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.805 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.810 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.810 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.805 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.795 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.782 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.768 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.752 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.736 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.721 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.709 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.699 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.694 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.694 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.701 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.714 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.736 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.767 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.809 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.867 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.929 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.979 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.981 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.941 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.883 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.805 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.709 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.594 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.459 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.306 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object visibility = 0.133 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingya".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.112 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.219 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.319 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.414 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.503 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.581 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.646 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.698 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.739 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.770 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.792 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.805 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.810 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.810 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.805 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.795 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.782 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.768 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.752 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.736 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.721 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.709 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.699 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.694 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.694 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.701 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.714 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.736 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.767 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.809 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.867 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.929 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.979 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.981 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.941 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.883 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.805 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.709 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.594 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.459 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.306 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object visibility = 0.133 out of 1.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+Adding object state to 1 detail level(s) of mesh "thingyb".
+Object is not visible.
+---------------------------------
+
+Optimizing meshes...
+
+Optimizing mesh "Plane" detail level 145.
+6 verts before joining verts
+4 verts after joining verts
+4 faces before stripping
+Using quick and dirty stripping method.
+2 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 4 cache misses
+
+Optimizing mesh "beams" detail level 145.
+1824 verts before joining verts
+1216 verts after joining verts
+16 faces before stripping
+Using quick and dirty stripping method.
+8 strips with average length 4.00 (range 4 to 4) and 0 reversals
+Results in 16 cache misses
+
+Optimizing mesh "innercone" detail level 145.
+108 verts before joining verts
+38 verts after joining verts
+72 faces before stripping
+Using quick and dirty stripping method.
+4 strips with average length 20.25 (range 4 to 37) and 1 reversals
+Results in 69 cache misses
+
+Optimizing mesh "outtercone" detail level 145.
+108 verts before joining verts
+38 verts after joining verts
+72 faces before stripping
+Using quick and dirty stripping method.
+4 strips with average length 20.25 (range 4 to 37) and 1 reversals
+Results in 69 cache misses
+
+Optimizing mesh "thingya" detail level 145.
+18 verts before joining verts
+8 verts after joining verts
+12 faces before stripping
+Using quick and dirty stripping method.
+4 strips with average length 5.25 (range 4 to 7) and 1 reversals
+Results in 8 cache misses
+
+Optimizing mesh "thingyb" detail level 145.
+18 verts before joining verts
+8 verts after joining verts
+12 faces before stripping
+Using quick and dirty stripping method.
+4 strips with average length 5.25 (range 4 to 7) and 1 reversals
+Results in 8 cache misses
+
+Shape Hierarchy:
+
+   Details:
+      detail145, Subtree 0, objectDetail 0, size 145
+
+   Subtrees:
+      Subtree 0
+         shape
+            start
+               Plane145 --> Object Plane with following details:  145
+               beams145 --> Object beams with following details:  145
+               innercone145 --> Object innercone with following details:  145
+               outtercone145 --> Object outtercone with following details:  145
+               thingya145 --> Object thingya with following details:  145
+               thingyb145 --> Object thingyb with following details:  145
+
+   Sequences:
+        0: castanim
+
+   Material list:
+   material #0: "fx01".  Additive-translucent.
+
+Checking for duplicate nodes...
+
+Checking for duplicate objects...

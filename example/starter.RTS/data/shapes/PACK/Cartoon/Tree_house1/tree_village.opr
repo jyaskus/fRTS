@@ -1,0 +1,6 @@
+OPRP
+
+LoadObject tree_village.fbx
+ObjectScale 2 2 2
+CastStencilShadow 1
+CollisionType UseRenderObject

@@ -1,0 +1,149 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(MainMenuGui) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiContentProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   useVariable = "0";
+   tile = "1";
+
+   new GuiChunkedBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      position = "0 0";
+      Extent = "640 480";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "./mainMenu/backdrop";
+      useVariable = "0";
+      tile = "0";
+
+      new GuiBitmapButtonCtrl(joinGame) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "28 167";
+         Extent = "116 118";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "Canvas.setContent(JoinServerGui);";
+         hovertime = "1000";
+         text = "Button";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "./mainMenu/joingame";
+      };
+      new GuiChunkedBitmapCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "208 0";
+         Extent = "432 336";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         bitmap = "./mainMenu/menu_image";
+         useVariable = "0";
+         tile = "0";
+      };
+      new GuiBitmapButtonCtrl(startGame) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "19 3";
+         Extent = "132 133";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "Canvas.setContent(startMissionGui);";
+         hovertime = "1000";
+         text = "Button";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "./mainMenu/startgame";
+      };
+      new GuiBitmapButtonCtrl(options) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "99 311";
+         Extent = "133 126";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "Canvas.pushDialog(optionsDlg);";
+         hovertime = "1000";
+         text = "Button";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "./mainMenu/options";
+      };
+      new GuiBitmapButtonCtrl(shortCut) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "4 291";
+         Extent = "179 31";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "Launch();";
+         hovertime = "1000";
+         text = "Button";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "./mainMenu/shortcut";
+      };      
+      new GuiBitmapButtonCtrl(quit) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "521 375";
+         Extent = "93 93";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "quit();";
+         hovertime = "1000";
+         text = "Button";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "./mainMenu/quit";
+      };      
+   };
+};
+//--- OBJECT WRITE END ---
+
+function Launch()
+{
+   %id = SM_missionList.getSelectedId();
+   %mission = "starter.RTS/data/missions/winter.mis";    // Here set the proper mission you wanna work on
+      
+   createServer("SinglePlayer", %mission);
+   %conn = new RTSConnection(ServerConnection);
+   RootGroup.add(ServerConnection);
+   %conn.setConnectArgs("DEFAULT_USER");                      // Here Set the Player Name
+   %conn.setJoinPassword("");
+   %conn.connectLocal();
+   
+   // Just auto join
+   commandToServer('PlayerReady', true);
+}

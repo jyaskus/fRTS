@@ -1,0 +1,21 @@
+newmtl Unassigned
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+d 1.000000
+illum 2
+newmtl front
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd c:\civil war pack\barn\barn.jpg
+newmtl straw
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd c:\civil war pack\barn\straw.jpg

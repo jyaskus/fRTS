@@ -1,0 +1,42 @@
+newmtl Unassigned
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+d 1.000000
+illum 2
+newmtl wo_1
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd c:\documents and settings\stevie\desktop\cartoon fantasy pack\a\tree22_h.jpg
+newmtl floor3
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd c:\documents and settings\stevie\desktop\cartoon fantasy pack\a\fence01.jpg
+newmtl roof1
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd c:\documents and settings\stevie\desktop\cartoon fantasy pack\a\th_wood05.jpg
+newmtl TREE
+Kd 0.988235 0.996078 1.000000
+Ks 0.988235 0.996078 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd c:\documents and settings\stevie\desktop\cartoon fantasy pack\a\tree15.jpg
+newmtl leaves
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 1.000000
+d 1.000000
+illum 2
+map_Kd c:\documents and settings\stevie\desktop\cartoon fantasy pack\a\tree09.png

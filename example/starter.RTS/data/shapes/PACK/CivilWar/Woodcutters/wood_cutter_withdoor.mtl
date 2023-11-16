@@ -1,0 +1,51 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D v2.29
+# Time: Sun Apr 15 12:51:31 2007
+# num_materials: 5
+
+newmtl roof
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd woodcutters_2.jpg
+
+newmtl frontwall
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd woodcutters_1.jpg
+
+newmtl material47
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd wood_wall4.jpg
+
+newmtl material49
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd wood_wall4.jpg
+
+newmtl floor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd wood_wall4.jpg
+
+# num_materials: 5

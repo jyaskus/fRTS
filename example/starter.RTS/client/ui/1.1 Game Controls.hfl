@@ -1,0 +1,14 @@
+<lmargin%:5><rmargin%:95><font:Arial Bold:20>Default Game Control Setup...<font:Arial:16>
+<tab:105,200>
+
+<font:Arial Bold:16>View Control<font:Arial:16>
+Arrow Keys  Pan the map
+Mouse Movement Pan the map
+Mouse Wheel Zoom
+CTRL + MWheel  Adjust angle
+
+<font:Arial Bold:16>Chat<font:Arial:16>
+U	Send public chat message
+
+<font:Arial Bold:16>Misc Functions<font:Arial:16>
+Ctrl-O	Open in-game options dialog

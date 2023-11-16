@@ -1,0 +1,399 @@
+// Creator: Ultimate Unwrap3D v2.27
+// Time: Mon Sep 11 15:12:22 2006
+
+material s1
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture eng_stone1.jpg
+         }
+      }
+   }
+}
+material old_stone
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture eng_stone1.jpg
+         }
+      }
+   }
+}
+material mosaic_stone
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture mosaic_stone.jpg
+         }
+      }
+   }
+}
+material TFPole_2
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture TFPole_2.jpg
+         }
+      }
+   }
+}
+material eng_stone_1b
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture eng_stone_1b.jpg
+         }
+      }
+   }
+}
+material eng_stone1
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture eng_stone1.jpg
+         }
+      }
+   }
+}
+material Thatch_roof_blend
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture Thatch roof_blend.jpg
+         }
+      }
+   }
+}
+material m3
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture mosaic_stone.jpg
+         }
+      }
+   }
+}
+material eng_stone1c
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture eng_stone1.jpg
+         }
+      }
+   }
+}
+material t1
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture TFPole_2.jpg
+         }
+      }
+   }
+}
+material m2
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture mosaic_stone.jpg
+         }
+      }
+   }
+}
+material m1
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture mosaic_stone.jpg
+         }
+      }
+   }
+}
+material e5
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture eng_stone1.jpg
+         }
+      }
+   }
+}
+material e1
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture eng_stone1.jpg
+         }
+      }
+   }
+}
+material e4
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture eng_stone_1b.jpg
+         }
+      }
+   }
+}
+material r2
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture eng_stone_1b.jpg
+         }
+      }
+   }
+}
+material t2
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture TFPole_2.jpg
+         }
+      }
+   }
+}
+material th
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture Thatch roof_blend.jpg
+         }
+      }
+   }
+}
+material t4
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture TFPole_2.jpg
+         }
+      }
+   }
+}
+material th_MDS_door_55
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture door1.jpg
+         }
+      }
+   }
+}
+material th_MDS_door_56
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture door1.jpg
+         }
+      }
+   }
+}
+material leaded_glass_png
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.000000 0.000000 0.000000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.000000 0.000000 0.000000 1.000000 128.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture leaded glass_png.png
+         }
+      }
+   }
+}
